@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="EventApp" />
         <module name="fest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="fest" target="1.5" />
+      <module name="EventApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
