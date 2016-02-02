@@ -84,7 +84,7 @@
                 android:value="com.itworks.festapp.models.ArtistNotificationModel" />
         <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
-                android:value="AIzaSyDHh24H4LKxoygXxcdvFyRcauNxkU3b_Ek" />
+                android:value="AIzaSyAsbZxd3puJB5dbrrY_Hy_iG977Yt7USjU" />
 
         <receiver android:name=".helpers.NotificationReceiver">
             <intent-filter>

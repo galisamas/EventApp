@@ -30,7 +30,7 @@ import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListene
 public class MenuFragment extends Fragment implements View.OnClickListener {
 
     RelativeLayout b1,b2,b3,b4,b5,b6;
-    ImageView logo;
+    ImageView logo, img;
     Space space1, space2, space3;
     private MenuBottomFragment element;
     private FrameLayout bottomLine;
@@ -43,12 +43,12 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.add(R.id.bottomLine, element);
         transaction.commit();
-        ImageView img = (ImageView) v.findViewById(R.id.menu_background_logo);
+        img = (ImageView) v.findViewById(R.id.menu_background_logo);
         ImageLoader imageLoader = ImageLoader.getInstance();
         imageLoader.loadImage("drawable://" + R.drawable.bg, new SimpleImageLoadingListener() {
             @Override
             public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-                img.setBackgroundDrawable(new BitmapDrawable(loadedImage));
+                img.setImageDrawable(new BitmapDrawable(loadedImage));
             }
         });
         logo = (ImageView) v.findViewById(R.id.logo);
