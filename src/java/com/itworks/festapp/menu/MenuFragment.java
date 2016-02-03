@@ -21,6 +21,7 @@ import com.itworks.festapp.artists.ArtistsActivity;
 import com.itworks.festapp.food.FoodActivity;
 import com.itworks.festapp.games.GamesActivity;
 import com.itworks.festapp.helpers.PhotoController;
+import com.itworks.festapp.helpers.TypefaceController;
 import com.itworks.festapp.info.InfoActivity;
 import com.itworks.festapp.map.TerritoryActivity;
 import com.itworks.festapp.stages.StagesActivity;
@@ -30,10 +31,10 @@ import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListene
 public class MenuFragment extends Fragment implements View.OnClickListener {
 
     RelativeLayout b1,b2,b3,b4,b5,b6;
+    TextView b1t, b2t, b3t, b4t, b5t, b6t;
     ImageView logo, img;
     Space space1, space2, space3;
     private MenuBottomFragment element;
-    private FrameLayout bottomLine;
     boolean i = false;
 
     @Override
@@ -57,9 +58,9 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
         b2 = (RelativeLayout) v.findViewById(R.id.button2);
         b3 = (RelativeLayout) v.findViewById(R.id.button3);
         b4 = (RelativeLayout) v.findViewById(R.id.button4);
-        b4.setEnabled(true);
         b5 = (RelativeLayout) v.findViewById(R.id.button5);
         b6 = (RelativeLayout) v.findViewById(R.id.button6);
+        b4.setEnabled(true);
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
@@ -85,7 +86,7 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
         space1 = (Space) v.findViewById(R.id.space1);
         space2 = (Space) v.findViewById(R.id.space2);
         space3 = (Space) v.findViewById(R.id.space3);
-        bottomLine = (FrameLayout) v.findViewById(R.id.bottomLine);
+        setTypefaces(v);
         return v;
     }
 
@@ -93,6 +94,22 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         identifySpaceHeight(calculateSpaceHeight(getActivity()));
+    }
+
+    private void setTypefaces(View v) {
+        TypefaceController typefaceController = new TypefaceController(getActivity().getAssets());
+        b1t = (TextView) v.findViewById(R.id.b1t);
+        b2t = (TextView) v.findViewById(R.id.b2t);
+        b3t = (TextView) v.findViewById(R.id.b3t);
+        b4t = (TextView) v.findViewById(R.id.b4t);
+        b5t = (TextView) v.findViewById(R.id.b5t);
+        b6t = (TextView) v.findViewById(R.id.b6t);
+        typefaceController.setFutura(b1t);
+        typefaceController.setFutura(b2t);
+        typefaceController.setFutura(b3t);
+        typefaceController.setFutura(b4t);
+        typefaceController.setFutura(b5t);
+        typefaceController.setFutura(b6t);
     }
 
     private void identifySpaceHeight(int height) {
@@ -111,8 +128,6 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
         int logoH = (int) getResources().getDimension(R.dimen.logo_height);
         int festH = (int) (getResources().getDimension(R.dimen.fest_height)*(PhotoController.isItSmallScreen(context)?1.5:(PhotoController.isItMediumScreen(context)?4:7)));
         int buttonsH = (int) (getResources().getDimension(R.dimen.button_width)*2);
-        bottomLine.getLayoutParams().width = (int) (getResources().getDimension(R.dimen.button_width)*3 + getResources().getDimension(R.dimen.menu_button_margins)*2);
-        bottomLine.requestLayout();
         int fragmentH = (int) getResources().getDimension(R.dimen.button_width);
         return (size.y-logoH-festH-buttonsH-fragmentH)/3;
     }

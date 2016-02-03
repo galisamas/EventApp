@@ -22,6 +22,10 @@ public class TypefaceController {
         view.setTypeface(futura);
     }
 
+    public void setFuturaBold (TextView view){
+        view.setTypeface(futura, Typeface.BOLD);
+    }
+
     public void setArial(TextView view){
         view.setTypeface(arial);
     }

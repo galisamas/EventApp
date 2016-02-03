@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/bottomParent"
         android:background="@color/transparent">
@@ -16,7 +16,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_centerHorizontal="true"
                 android:text="@string/menu_bottom_title"
-                android:textColor="@color/day_background"
+                android:textColor="@color/menu_text_color"
                 android:id="@+id/textView3"/>
     </RelativeLayout>
 
@@ -25,12 +25,12 @@
             android:layout_height="3dp"
             android:layout_below="@+id/onscene"
             android:id="@+id/line1"
-            android:background="@color/day_background" />
+            android:background="@color/menu_text_color" />
 
     <LinearLayout
             android:orientation="horizontal"
             android:layout_below="@+id/line1"
-            android:background="#4D000000"
+            android:background="@color/menu_bottom_background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -47,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:layout_centerHorizontal="true"
-                        android:textColor="@color/day_background"
+                        android:textColor="@color/menu_text_color"
                         android:id="@+id/textView"/>
             </RelativeLayout>
             <FrameLayout android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
-                android:background="@color/day_background" />
+                android:background="@color/menu_text_color" />
         <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:layout_centerHorizontal="true"
-                        android:textColor="@color/day_background"
+                        android:textColor="@color/menu_text_color"
                         android:id="@+id/textView4"/>
             </RelativeLayout>
             <FrameLayout android:layout_width="match_parent"

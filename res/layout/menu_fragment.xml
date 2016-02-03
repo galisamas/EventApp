@@ -13,13 +13,15 @@
                 />
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="180dp"
                 android:layout_alignParentBottom="true"
                 android:id="@+id/menu_background_logo"/>
 
         <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
+                android:paddingRight="@dimen/button_height"
+                android:paddingLeft="@dimen/button_height"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/space1"
                 android:layout_above="@+id/space2"
@@ -50,7 +52,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                android:text="@string/mk_map"/>
+                                android:text="@string/mk_map"
+                            android:id="@+id/b1t" />
                 </RelativeLayout>
                 <RelativeLayout
                         android:layout_width="@dimen/button_width"
@@ -65,7 +68,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                  android:text="@string/mk_stages"/>
+                                  android:text="@string/mk_stages"
+                            android:id="@+id/b2t" />
                 </RelativeLayout>
                 <RelativeLayout
                         android:layout_width="@dimen/button_width"
@@ -78,7 +82,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                  android:text="@string/mk_artists"/>
+                                  android:text="@string/mk_artists"
+                            android:id="@+id/b3t" />
                 </RelativeLayout>
                 <RelativeLayout
                         android:layout_width="@dimen/button_width"
@@ -93,7 +98,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                  android:text="@string/mk_games"/>
+                                  android:text="@string/mk_games"
+                            android:id="@+id/b4t" />
                 </RelativeLayout>
                 <RelativeLayout
                         android:layout_width="@dimen/button_width"
@@ -106,7 +112,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                  android:text="@string/mk_food"/>
+                                  android:text="@string/mk_food"
+                            android:id="@+id/b5t" />
                 </RelativeLayout>
                 <RelativeLayout
                         android:layout_width="@dimen/button_width"
@@ -120,7 +127,8 @@
                                   android:textColor="@color/menu_text_color"
                                   android:textSize="@dimen/menu_text_size"
                                   android:layout_centerInParent="true"
-                                  android:text="@string/mk_info"/>
+                                  android:text="@string/mk_info"
+                            android:id="@+id/b6t" />
                 </RelativeLayout>
 
         </LinearLayout>
