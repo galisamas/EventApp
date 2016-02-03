@@ -8,172 +8,16 @@
       </filter>
     </filters>
   </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.itworks.festapp" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e7c3ba-56b8-4998-a70a-d9f56f01f97a" name="Default" comment="vaziuoja">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/ActionBarActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistInfoFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/comparators/ArtistListComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/ArtistListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/ArtistModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/ArtistNotificationModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsListAdapterFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/BaseFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/BaseListFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/BaseTimetable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/BrowserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/ComingSoonActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/CustomTypefaceSpan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/DateController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/DayName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/map/ExpandableListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/FloatingGroupExpandableListView/FloatingGroupExpandableListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapterFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/FoodListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/FoodModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/comparators/GameListComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/GameModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/GameTimetableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapterFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/GamesListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoBaseFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoDriveMeThereFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoItWorksFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoListAdapterFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/InfoListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoRulesFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/info/InfoTicketsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/JSONRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuBottomElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuBottomFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/ModelsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/MyActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/MyApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/NotificationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/NotificationIntentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/NotificationModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/NotificationReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/OriginRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/PhotoController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/PlaceModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/FloatingGroupExpandableListView/ReflectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/SplashScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/StageListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/stages/StagesActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/stages/StagesListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/stages/StagesListAdapterFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/comparators/TimetableListComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/models/TimetableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/TypefaceController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/UsageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/FloatingGroupExpandableListView/WrapperExpandableListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\dictionaries\Naglis.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\Maven__com_google_android_support_v4_r7.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\Maven__com_parse_bolts_bolts_android_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\Parse_1_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\google_play_services1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\google_play_services2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\libraries\google_play_services_lib1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\fest.apk" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\libs\AndroidEasingFunctions-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\libs\imageframeanimationlibrary.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\ActionBarActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\BaseFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\BaseListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\ComingSoonActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\DayName.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\MyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\MyApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\SplashScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\artists\ArtistInfoFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\artists\ArtistsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\artists\ArtistsListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\artists\ArtistsListAdapterFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\food\FoodActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\food\FoodInfoFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\food\FoodListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\food\FoodListAdapterFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\games\GameInfoFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\games\GamesActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\games\GamesListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\games\GamesListAdapterFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\BrowserController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\CustomTypefaceSpan.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\DateController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\FloatingGroupExpandableListView\FloatingGroupExpandableListView.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\FloatingGroupExpandableListView\ReflectionUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\FloatingGroupExpandableListView\WrapperExpandableListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\JSONRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\ModelsController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\NotificationController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\NotificationIntentService.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\NotificationReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\OriginRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\PhotoController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\TypefaceController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\UsageController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\comparators\ArtistListComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\comparators\GameListComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\helpers\comparators\TimetableListComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoBaseFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoDriveMeThereFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoItWorksFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoListAdapterFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoRulesFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\info\InfoTicketsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\map\ExpandableListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\map\TerritoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\menu\MenuActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\menu\MenuBottomElement.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\menu\MenuBottomFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\menu\MenuFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\ArtistListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\ArtistModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\ArtistNotificationModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\BaseModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\BaseTimetable.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\FoodListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\FoodModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\GameModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\GameTimetableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\GamesListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\InfoListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\NotificationModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\PlaceModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\StageListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\models\TimetableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\stages\StagesActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\stages\StagesListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\src\main\java\com\itworks\festapp\stages\StagesListAdapterFragment.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventApp.iml" afterPath="$PROJECT_DIR$/EventApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="43e7c3ba-56b8-4998-a70a-d9f56f01f97a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EventApp.iws" />
@@ -499,6 +343,13 @@
       <option name="number" value="Default" />
       <updated>1454502312719</updated>
     </task>
+    <task id="LOCAL-00001" summary="it is working and there is no extra older in src named &quot;main&quot;">
+      <created>1454505122415</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1454505122415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,6 +387,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="it is working and there is no extra older in src named &quot;main&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="it is working and there is no extra older in src named &quot;main&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
