@@ -33,15 +33,10 @@ public class FoodListAdapter extends ArrayAdapter<FoodListItem> {
         editor.apply();
     }
 
-    @Override
-    public boolean isEnabled(int position) {
-        return position == 0;
-    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder ;
-        FoodListItem item = getItem(position);
         if(convertView == null) {
             // inflate the GridView item layout
             LayoutInflater inflater = LayoutInflater.from(getContext());
@@ -59,13 +54,8 @@ public class FoodListAdapter extends ArrayAdapter<FoodListItem> {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        if (position != 0 ) {
-            viewHolder.arrow.setVisibility(View.GONE);
-        }else{
-            viewHolder.arrow.setVisibility(View.VISIBLE);
-        }
-
         // update the item view
+        FoodListItem item = getItem(position);
         ImageLoader imageLoader = ImageLoader.getInstance();
         int photoId = sharedpreferences.getInt(item.name, -1);
         imageLoader.displayImage("drawable://" + photoId ,viewHolder.ivIcon);

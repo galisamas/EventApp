@@ -33,168 +33,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.itworks.festapp" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e7c3ba-56b8-4998-a70a-d9f56f01f97a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/b9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/g9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/p1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/p2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/p3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/p4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/p5.png" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b10.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b19.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b21.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b22.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b23.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b24.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b25.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b26.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b27.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b28.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b29.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b30.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b31.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b33.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b34.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\b9.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p10.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable-xxhdpi\p9.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\f0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\f11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\f12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\f13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\f14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m19.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m21.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m22.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m23.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m24.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m25.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m26.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m27.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m28.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m29.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m30.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m31.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m33.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\m34.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n0.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n10.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\drawable\n9.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f1.png" afterPath="$PROJECT_DIR$/res/drawable/f1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f10.png" afterPath="$PROJECT_DIR$/res/drawable/f10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f2.png" afterPath="$PROJECT_DIR$/res/drawable/f2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f3.png" afterPath="$PROJECT_DIR$/res/drawable/f3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f4.png" afterPath="$PROJECT_DIR$/res/drawable/f4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f5.png" afterPath="$PROJECT_DIR$/res/drawable/f5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f6.png" afterPath="$PROJECT_DIR$/res/drawable/f6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f7.png" afterPath="$PROJECT_DIR$/res/drawable/f7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f8.png" afterPath="$PROJECT_DIR$/res/drawable/f8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/f9.png" afterPath="$PROJECT_DIR$/res/drawable/f9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m1.png" afterPath="$PROJECT_DIR$/res/drawable/m1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m10.png" afterPath="$PROJECT_DIR$/res/drawable/m10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m2.png" afterPath="$PROJECT_DIR$/res/drawable/m2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m3.png" afterPath="$PROJECT_DIR$/res/drawable/m3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m4.png" afterPath="$PROJECT_DIR$/res/drawable/m4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m5.png" afterPath="$PROJECT_DIR$/res/drawable/m5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m6.png" afterPath="$PROJECT_DIR$/res/drawable/m6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m7.png" afterPath="$PROJECT_DIR$/res/drawable/m7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m8.png" afterPath="$PROJECT_DIR$/res/drawable/m8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/m9.png" afterPath="$PROJECT_DIR$/res/drawable/m9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n1.png" afterPath="$PROJECT_DIR$/res/drawable/n1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n2.png" afterPath="$PROJECT_DIR$/res/drawable/n2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n3.png" afterPath="$PROJECT_DIR$/res/drawable/n3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n4.png" afterPath="$PROJECT_DIR$/res/drawable/n4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/n5.png" afterPath="$PROJECT_DIR$/res/drawable/n5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistInfoFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistInfoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsListAdapterFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsListAdapterFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapterFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapterFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapterFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapterFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/NotificationIntentService.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/NotificationIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/artists.json" afterPath="$PROJECT_DIR$/assets/artists.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/food.json" afterPath="$PROJECT_DIR$/assets/food.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/games.json" afterPath="$PROJECT_DIR$/assets/games.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gametimetable.json" afterPath="$PROJECT_DIR$/assets/gametimetable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/places.json" afterPath="$PROJECT_DIR$/assets/places.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/timetable.json" afterPath="$PROJECT_DIR$/assets/timetable.json" />
+    <list default="true" id="43e7c3ba-56b8-4998-a70a-d9f56f01f97a" name="Default" comment="jsons and photos are ready to use">
+      <change type="DELETED" beforePath="E:\ItWorks\EventProt\EventApp\res\layout\food_list_item_caif.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EventApp.iws" />
@@ -218,12 +61,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FoodInfoFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameInfoFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#5087#5088#0" expanded="false" />
+                <element signature="e#5157#5158#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodInfoFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.53352356">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food_list_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/food_list_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.448276">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodListAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerritoryActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37777779">
+              <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GamesListAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -241,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/helpers/TypefaceController.java" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/values/dimens.xml" />
@@ -259,6 +174,9 @@
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistInfoFragment.java" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java" />
+        <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -281,10 +199,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-60" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="x" value="-1374" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -401,6 +319,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="festapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,6 +412,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -709,7 +671,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454517800247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jsons and photos are ready to use">
+      <created>1454622621474</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1454622621474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -722,25 +690,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-60" width="1616" height="886" extended-state="6" />
+    <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24871466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26413882" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2847571" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="364" y="541" width="969" height="208" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4266118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42546064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15745501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18532526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -772,7 +740,8 @@
     <MESSAGE value="it is working and there is no extra older in src named &quot;main&quot;" />
     <MESSAGE value="pom corrections and less lib" />
     <MESSAGE value="menu is changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu is changed" />
+    <MESSAGE value="jsons and photos are ready to use" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsons and photos are ready to use" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -811,22 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -944,50 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26676178">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/artists/ArtistsListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09700428">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1188,10 +1101,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GameInfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5087#5088#0" expanded="false" />
+            <element signature="e#5157#5158#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53352356">
+          <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029957203">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/food_info_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2008928">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/food_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.448276">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/games/GamesListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodInfoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.53352356">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/food/FoodListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/itworks/festapp/map/TerritoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37777779">
+          <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -1253,7 +1254,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2520138" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

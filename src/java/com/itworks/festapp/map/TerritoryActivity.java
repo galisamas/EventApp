@@ -44,11 +44,11 @@ public class TerritoryActivity extends FragmentActivity implements android.locat
     private String name, snippet;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) { // TODO reik kad rodytu actionbar
         super.onCreate(savedInstanceState);
         setContentView(R.layout.territory_activity);
         System.gc();
-        cameraStart = new LatLng(55.160313, 25.309264);
+        cameraStart = new LatLng(55.160313, 25.309264); // TODO carema possition
         markerQueue = new LinkedList<>();
         Intent intent = getIntent();
         lat = intent.getDoubleExtra("place_latitude", 0.0);
