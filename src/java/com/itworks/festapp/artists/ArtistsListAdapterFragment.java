@@ -51,7 +51,7 @@ public class ArtistsListAdapterFragment extends BaseListFragment {
                 artists = jsonRepository.getArtistsFromJSON();
                 Collections.sort(artists, new ArtistListComparator());
                 for (ArtistModel artist : artists) {
-                    int photo_id = getResources().getIdentifier("m" + artist.id, "drawable", packageName);
+                    int photo_id = getResources().getIdentifier("m" + (artist.id+1), "drawable", packageName);
                     mItems.add(new ArtistListItem(photo_id, artist.title));
                 }
                 return null;

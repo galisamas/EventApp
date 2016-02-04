@@ -1,94 +1,64 @@
-﻿{
-	"food": [
-  {
-    "about": "Parodyk baristai RADISTAI VILLAGE'15 aplikaciją savo išmaniajame telefone ir festivalio kavą įsigyk su 30% nuolaida.",
-    "title": "Caif Cafe",
-    "link_facebook": "",
-    "id": 0
-  },
-  {
-    "about": "",
-    "title": "Pasta & WOK",
-    "link_facebook": "",
-    "id": 1
-  }, 
-  {
-    "about": "",
-    "title": "Mėsainiai",
-    "link_facebook": "",
-    "id": 2
-  }, 
-  {
-    "about": "",
-    "title": "Kebabai",
-    "link_facebook": "",
-    "id": 3
-  }, 
-  {
-    "about": "",
-    "title": "Lietuviška tradicinė virtuvė",
-    "link_facebook": "",
-    "id": 4
-  }, 
-  {
-    "about": "",
-    "title": "Pizza",
-    "link_facebook": "",
-    "id": 5
-  }, 
-  {
-    "about": "",
-    "title": "Vokiška virtuvė",
-    "link_facebook": "",
-    "id": 6
-  }, 
-  {
-    "about": "",
-    "title": "Sushi (Soya)",
-    "link_facebook": "",
-    "id": 7
-  }, 
-  {
-    "about": "",
-    "title": "Indiška virtuvė",
-    "link_facebook": "",
-    "id": 8
-  }, 
-  {
-    "about": "",
-    "title": "Sumuštiniai",
-    "link_facebook": "",
-    "id": 9
-  }, 
-  {
-    "about": "",
-    "title": "La Bulvė",
-    "link_facebook": "",
-    "id": 10
-  }, 
-  {
-    "about": "",
-    "title": "Spurgos (Donut Lab)",
-    "link_facebook": "",
-    "id": 11
-  }, 
-  {
-    "about": "",
-    "title": "Kukurūzai",
-    "link_facebook": "",
-    "id": 12
-  }, 
-  {
-    "about": "",
-    "title": "Blynai",
-    "link_facebook": "",
-    "id": 13
-  },
-  {
-    "about": "",
-    "title": "Dešrainiai24",
-    "link_facebook": "",
-    "id": 14
-  }
-]
+{
+    "food": [
+             {
+             "about": "Soup is a form of meal which is made up of mostly water and other ingredients. There is chicken soup, beef soup, tomato soup and other flavors. Soup as always been recommended by doctors, moms and grandma's as a nutritious meal to help you when you have fallen ill to flu and other ailments which may require your body to have proper nutrition without eating bulky foods. Soups are served in almost all restaurants as appetizers to open and warm up your stomach for your main course. Nowadays with all the health issues regarding weight, a lot of people have chosen a good soup dinner over heavy meals. It is is an important mainstay in the everyday diet ofmost cultures. It was probably one of the earliest cooked preparations because it could be made with just about anything (including leftovers fromthe day before) and could be extended greatly simply by adding more water. So, apart from being one of the most consumed beverages, it is the most consumed beverage foods when you are ill or probably on a diet.",
+             "title": "Soup",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 0
+             },
+             {
+             "about": "Orange orange juice is the worlds number one fruit juice. Orange juice is juice from oranges. It is made by squeezing the fresh orange, by drying and later re-hydrating the juice, or by concentration of the juice and later adding water to the concentrate. It is known for its health benefits, particularly its high concentration of vitamin C. Orange juice is consumed by the millions in gallons and is the worlds number one Vitamin C provider. It is also used in bars and restaurants as chasers for alcoholic drinks. It is one of the more healthier juice consumed worldwide. Orange juice rushes pours in at number 3 in the most consumed beverages",
+             "title": "Orange Juice",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 1
+             },
+             {
+             "about": "Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the tea plant. Tea is one  of the most widely consumed beverage in the world. Teas are made from many different plants and thus can have several different flavors. There are teas which are know for a lot of health benefits such as, weight loss, sleeping, stamina or even good bowel movement. Tea is one of the few  beverages which can be enjoyed hot or iced and is suitable to consume on many occasions. Statistics show that over 100 million Americans drink tea.",
+             "title": "Tea",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 2
+             },
+             {
+             "about": "This is about as American as it gets. The concept of the hamburger originated sometime in the late 19th century, according to the L.A. Times. As the dish began to increase in popularity in the 1920s and 1930s, cheese seemed like a natural next step. The origins are widely disputed — of course they are — because who wouldn͛t want to be credited with the cheeseburger that started it all? Nowadays, Americans eat nearly 50 billion burgers a year, according to The Huffington Post. That figure translates to three burgers a week for every person in the United States! ",
+             "title": "Cheeseburgers",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 3
+             },
+             {
+             "about": "Fried chicken is certainly not unique to the United States, but Americans have adopted the crispy, greasy dish as one of their own. The southern United States, in particular, have taken this dish to new levels — keeping in stride with their reputation for exquisitely indulgent fried-up delights. Try this comfort food alongside a hearty serving of waffles (or waffle fries!) Don͛t have a deep frier? You poor sap! Head out to any of the numerous fried chicken chains (ranked here by Thrillist) known so well for this all time comfort food classic. ",
+             "title": "Fried Chicken",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 4
+             },
+             {
+             "about": "As American as ... This one is self-explanatory. Apple pie crossed the Atlantic with the pilgrims and made itself at home in the U.S. According to Parade, ͞The Pilgrims brought apple spurs with them to the New World; when the trees began producing fruit, apple became one of the most popular pie fillings in early America. Back then, pies were seen as an economical and sustainable food source that helped to fill the stomachs of hungry immigrants.͟ Delicious and functional — who knew? Better help ourselves to an extra slice.",
+             "title": "Apple Pie",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 5
+             },
+             {
+             "about": "For Americans, peanut butter and jelly sandwiches are as second nature as breathing. According to the National Peanut Board, ͞the average child will eat 1,500 peanut butter and jelly sandwiches before he/she graduates high school.͟ Like most culinary staples, it͛s hard to pinpoint the origins of the PB&J. What we do know is that, as author Don Voorhees puts it in Why Do Donuts Have Holes?, ͞the all-American PB&J is little appreciated by the outside world.͟ Oh, well. More for us!",
+             "title": "Peanut Butter",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 6
+             },
+             {
+             "about": "This is yet one more case for the ͞Unsolved Food Origin Mysteries͟ pile. No one can really decide where or how these thoroughly messy and delicious wings came to be (Buffalo, New York seems a better wager than many), but they seem to have begun popping up sometime in the 1970s. Nowadays, there are very few American-fare pubs and restaurants you can go to that won͛t have a buffalo wings option on hand. Wings have widespread appeal, and are a fun and yummy excuse to revel in your gluttony. The National Chicken Council attests to the dish͛s popularity, estimating that over 13.5 billion chicken wings would be sold over the course of the year 2012. During 2012′s Superbowl Weekend alone, the Council estimated that over 1.25 billion wing portions would be consumed.",
+             "title": "Buffalo Wings",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 7
+             },
+             {
+             "about": "Really anything hot dog-based will do the trick, but corn dogs are one of those county fair staples of middle America that cannot be denied a place here. Whether you like ͚em corned up or not, frankfurters are classically American (the guy above knows what we͛re talking about.) Hot dogs go hand-in-hand with barbecues and baseball — two of the great American pasttimes. The National Hot Dog and Sausage council estimates that Americans consume 20 billion (20,000,000,000) hot dogs annually. As for the corn dog spin on things — well, it͛s a generally acknowledged fact that everything is better on a stick. ",
+             "title": "Corn Dogs",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 8
+             }, 
+             {
+             "about": "According to Time, barbecue is ͞just about as red, white, and blue as American cuisine gets,͟ and rightly so! Time notes that barbecue seems to have originated with Spanish settlers in the United States, and that, ͞By the 19th century, the culinary technique was well established in the American South ... because pigs were prevalent in the region, pork became the primary meat at barbecues.͟ Ribs are yet another delicious reason to get your hands (and face) dirty. Ribs — generally of a pork base — are grilled to the point of tenderness and soaked in various BBQ sauces (or rubs) to give them that one-of-the-kind flavor.",
+             "title": "BBQ Ribs",
+             "link_facebook": "https://www.facebook.com/itworksmobile",
+             "id": 9
+             }
+             ]
 }

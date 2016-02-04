@@ -34,7 +34,7 @@ public class GamesListAdapterFragment extends BaseListFragment {
                 modelsController = new ModelsController(getActivity());
                 Collections.sort(games, new GameListComparator());
                 for (GameModel game : games) {
-                    int photo_id = activity.getResources().getIdentifier("n" + game.id, "drawable", packageName);
+                    int photo_id = activity.getResources().getIdentifier("n" + (game.id+1), "drawable", packageName);
                     mItems.add(new GamesListItem(photo_id, game.title));
                 }
                 return null;

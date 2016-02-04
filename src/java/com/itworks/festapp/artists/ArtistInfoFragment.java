@@ -76,7 +76,7 @@ public class ArtistInfoFragment extends BaseFragment implements View.OnClickList
         paintSocialIcons();
         timetables = modelsController.getTimetableModelsByArtistId(artistModel.id);
         setAlarm();
-        int photo_id = getResources().getIdentifier("b"+artistModel.id, "drawable", getActivity().getPackageName());
+        int photo_id = getResources().getIdentifier("b" + (artistModel.id+1), "drawable", getActivity().getPackageName());
         imageLoader.displayImage(drawableString + photo_id, photo);
         int marginTop = -12;
         if(PhotoController.isItSmallScreen(getActivity())){
@@ -143,7 +143,7 @@ public class ArtistInfoFragment extends BaseFragment implements View.OnClickList
                 .from(ArtistNotificationModel.class)
                 .where("artistId = ?", artistModel.id)
                 .executeSingle();
-        if(artistNotificationModel.notification){
+        if(artistNotificationModel.notification){ // TODO crashino kai duodavo null
             imageLoader.displayImage(drawableString + R.drawable.alarm_on, alarm);
         }
         alarm.setOnClickListener(new View.OnClickListener() {

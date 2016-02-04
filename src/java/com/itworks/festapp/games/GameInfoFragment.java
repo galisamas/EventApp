@@ -74,7 +74,7 @@ public class GameInfoFragment extends BaseFragment implements View.OnClickListen
                 place.setEnabled(false);
             }
         });
-        int photo_id = getResources().getIdentifier("p" + gameModel.id, "drawable", getActivity().getPackageName());
+        int photo_id = getResources().getIdentifier("p" + (gameModel.id+1), "drawable", getActivity().getPackageName());
         imageLoader.displayImage("drawable://" + photo_id, iw);
         int marginTop = -12;
         if(PhotoController.isItSmallScreen(getActivity())){

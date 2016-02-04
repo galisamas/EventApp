@@ -38,7 +38,7 @@ public class NotificationIntentService extends IntentService {
             }else if(onBoot){
                 setAlarmsOnBoot();
             }
-            setDefaultNotifications();
+//            setDefaultNotifications();
             setDefaultAlarmsToGames();
         }
     }

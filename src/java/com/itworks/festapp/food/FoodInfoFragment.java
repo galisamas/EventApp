@@ -26,7 +26,7 @@ public class FoodInfoFragment extends BaseFragment{
 
     private final String foodInfoPref = "FoodInfoPref";
     private final String key = "id";
-    private final int foodCourtId = 12;
+    private final int foodCourtId = 3; // TODO pakeisti visada foodCourtId
     private FoodModel foodModel;
     TextView title, about, location;
     RelativeLayout place;
@@ -67,7 +67,7 @@ public class FoodInfoFragment extends BaseFragment{
         location = (TextView) v.findViewById(R.id.location);
         iw = (ImageView) v.findViewById(R.id.imageView3);
 
-        int photo_id = getResources().getIdentifier("caif", "drawable", getActivity().getPackageName());
+        int photo_id = getResources().getIdentifier("g" + (foodModel.id+1), "drawable", getActivity().getPackageName());
         imageLoader.displayImage("drawable://" + photo_id, iw);
         title.setText(foodModel.title);
         location.setText(coordinate.name);

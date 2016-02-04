@@ -27,7 +27,7 @@ public class FoodListAdapterFragment extends BaseListFragment {
                 JSONRepository jsonRepository = new JSONRepository(getActivity());
                 food = jsonRepository.getFoodFromJSON();
                 for (FoodModel aFood : food) {
-                    int photo_id = activity.getResources().getIdentifier("f" + aFood.id, "drawable", packageName);
+                    int photo_id = activity.getResources().getIdentifier("f" + (aFood.id+1), "drawable", packageName);
                     mItems.add(new FoodListItem(aFood.id, photo_id, aFood.title));
                 }
                 return null;
