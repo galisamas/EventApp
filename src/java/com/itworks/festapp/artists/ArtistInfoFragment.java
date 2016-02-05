@@ -143,33 +143,35 @@ public class ArtistInfoFragment extends BaseFragment implements View.OnClickList
                 .from(ArtistNotificationModel.class)
                 .where("artistId = ?", artistModel.id)
                 .executeSingle();
-        if(artistNotificationModel.notification){ // TODO crashino kai duodavo null
-            imageLoader.displayImage(drawableString + R.drawable.alarm_on, alarm);
-        }
-        alarm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String toastText;
-                int imageId = R.drawable.alarm_on;
-                if (artistNotificationModel.notification) {
-                    imageId = R.drawable.alarm_off;
-                    toastText = getString(R.string.toast_cancel);
-                    artistNotificationModel.notification = false;
-                    NotificationController.cancelAlarm(getActivity(), artistModel.id);
-                } else {
-                    artistNotificationModel.notification = true;
-                    toastText = getString(R.string.toast_start);
-                    for (TimetableModel timetable : timetables) {
-                        String where = modelsController.convertPlaceIdToWhere(timetable.stageId);
-                        NotificationController.setAlarm(getActivity(), artistModel.title, artistModel.id, true, where, timetable);
-                    }
-                }
-                Toast.makeText(getActivity().getApplicationContext(), toastText, Toast.LENGTH_LONG).show();
-
-                artistNotificationModel.save();
-                imageLoader.displayImage(drawableString + imageId, alarm);
+        if (artistNotificationModel != null) {
+            if(artistNotificationModel.notification){
+                imageLoader.displayImage(drawableString + R.drawable.alarm_on, alarm);
             }
-        });
+            alarm.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String toastText;
+                    int imageId = R.drawable.alarm_on;
+                    if (artistNotificationModel.notification) {
+                        imageId = R.drawable.alarm_off;
+                        toastText = getString(R.string.toast_cancel);
+                        artistNotificationModel.notification = false;
+                        NotificationController.cancelAlarm(getActivity(), artistModel.id);
+                    } else {
+                        artistNotificationModel.notification = true;
+                        toastText = getString(R.string.toast_start);
+                        for (TimetableModel timetable : timetables) {
+                            String where = modelsController.convertPlaceIdToWhere(timetable.stageId);
+                            NotificationController.setAlarm(getActivity(), artistModel.title, artistModel.id, true, where, timetable);
+                        }
+                    }
+                    Toast.makeText(getActivity().getApplicationContext(), toastText, Toast.LENGTH_LONG).show();
+
+                    artistNotificationModel.save();
+                    imageLoader.displayImage(drawableString + imageId, alarm);
+                }
+            });
+        }
     }
 
     private void setTypefaces() {
