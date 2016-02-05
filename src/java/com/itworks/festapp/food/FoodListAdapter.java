@@ -22,7 +22,7 @@ public class FoodListAdapter extends ArrayAdapter<FoodListItem> {
     private final String foodAdapterPref = "foodAdapterPref";
 
     public FoodListAdapter(Context context, List<FoodListItem> items) {
-        super(context, R.layout.food_list_item, items);
+        super(context, R.layout.artists_list_item, items); // TODO naudojamas ne food_list_iten
         this.context = context;
         sharedpreferences = context.getSharedPreferences(foodAdapterPref, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();
@@ -40,7 +40,7 @@ public class FoodListAdapter extends ArrayAdapter<FoodListItem> {
         if(convertView == null) {
             // inflate the GridView item layout
             LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(R.layout.food_list_item, parent, false);
+            convertView = inflater.inflate(R.layout.artists_list_item, parent, false);
 
             // initialize the view holder
             viewHolder = new ViewHolder();
