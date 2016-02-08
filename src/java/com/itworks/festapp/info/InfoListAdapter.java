@@ -12,7 +12,7 @@ import com.itworks.festapp.models.InfoListItem;
 
 import java.util.List;
 
-public class InfoListAdapter extends ArrayAdapter<InfoListItem> {
+public class InfoListAdapter extends ArrayAdapter<InfoListItem> { // TODO list separator spalva pakeisti
 
     private final Context context;
 

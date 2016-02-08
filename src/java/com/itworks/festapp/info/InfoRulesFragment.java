@@ -26,7 +26,7 @@ public class InfoRulesFragment extends Fragment {
         List<String> rules = jsonRepository.getRulesFromJSON();
         photo = (ImageView) v.findViewById(R.id.imageView3);
         ImageLoader imageLoader = ImageLoader.getInstance();
-        imageLoader.displayImage("drawable://" + R.drawable.taisykles, photo);
+        imageLoader.displayImage("drawable://" + R.drawable.itworks, photo);
         about1 = (TextView) v.findViewById(R.id.about1);
         about2 = (TextView) v.findViewById(R.id.about2);
         about3 = (TextView) v.findViewById(R.id.about3);

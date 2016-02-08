@@ -42,53 +42,9 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/location_text"
+                    android:text="linkas"
                     android:id="@+id/link"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Aprasas2"
-                    android:textColor="@color/actionbar_second"
-                    android:id="@+id/about2"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link1"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link2"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link3"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link4"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link5"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
-                    android:id="@+id/link6"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         </LinearLayout>

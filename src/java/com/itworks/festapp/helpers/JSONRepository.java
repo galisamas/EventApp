@@ -267,13 +267,13 @@ public class JSONRepository {
     private String getInfoNameById(int id){
         String result  = "";
         switch (id){
-            case 0:
+            case 2:
                 result = "drivemethere";
                 break;
-            case 2:
+            case 3:
                 result = "history";
                 break;
-            case 3:
+            case 6:
                 result = "dodont";
                 break;
             case 4:
@@ -282,10 +282,10 @@ public class JSONRepository {
             case 5:
                 result = "parking";
                 break;
-            case 6:
+            case 0:
                 result = "tickets";
                 break;
-            case 7:
+            case 1:
                 result = "itworks";
                 break;
             case 9:

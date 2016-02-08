@@ -15,14 +15,14 @@ import java.util.List;
 
 public class InfoListAdapterFragment extends BaseListFragment {
 
-    private final int DRIVE_ME_THERE = 0;
-    private final int RULES = 1;
-    private final int HISTORY = 2;
-    private final int DODONT = 3;
-    private final int BRING = 4;
+    private final int DRIVE_ME_THERE = 2;
+    private final int RULES = 9;
+    private final int HISTORY = 3;
+    private final int DODONT = 8;
+    private final int BRING = 6;
     private final int PARKING = 5;
-    private final int TICKETS = 6;
-    private final int ITWORKS = 7;
+    private final int TICKETS = 0;
+    private final int ITWORKS = 1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,29 +42,29 @@ public class InfoListAdapterFragment extends BaseListFragment {
         String photoId = "photoId", jsonId = "jsonId";
         if(position == DRIVE_ME_THERE){
             fragment = new InfoDriveMeThereFragment();
-            bundle.putInt(photoId, R.drawable.kaip_atvykti);
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, DRIVE_ME_THERE);
         } else if(position == RULES){
             fragment = new InfoRulesFragment();
         } else if(position == HISTORY){
             fragment = new InfoBaseFragment();
-            bundle.putInt(photoId, R.drawable.istorija);
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, HISTORY);
         } else if(position == DODONT){
             fragment = new InfoBaseFragment();
-            bundle.putInt(photoId, R.drawable.daryti_nedaryti);
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, DODONT);
         } else if(position == BRING){
             fragment = new InfoBaseFragment();
-            bundle.putInt(photoId, R.drawable.ka_pasiimti);
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, BRING);
         } else if(position == PARKING){
             fragment = new InfoBaseFragment();
-            bundle.putInt(photoId, R.drawable.parkavimas);
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, PARKING);
         } else if(position == TICKETS){
-            fragment = new InfoTicketsFragment();
-            bundle.putInt(photoId, R.drawable.bilietai);
+            fragment = new InfoBaseFragment();
+            bundle.putInt(photoId, R.drawable.itworks);
             bundle.putInt(jsonId, TICKETS);
         } else if(position == ITWORKS){
             fragment = new InfoItWorksFragment();

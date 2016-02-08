@@ -22,7 +22,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.List;
 
-public class FoodInfoFragment extends BaseFragment{
+public class FoodInfoFragment extends BaseFragment{ // TODO prideti facebook icona
 
     private final String foodInfoPref = "FoodInfoPref";
     private final String key = "id";

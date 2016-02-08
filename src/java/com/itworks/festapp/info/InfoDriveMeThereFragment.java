@@ -24,11 +24,10 @@ import java.util.Locale;
 
 public class InfoDriveMeThereFragment extends Fragment implements View.OnClickListener {
 
-    TextView about, about2, link1, link2, link3, link4, link5, link6, link;
+    TextView about, link;
     ImageView header;
     private List<String> infoList;
-    private BrowserController browserContoller;
-    private final String destinationName = "Radistai Village";
+    private final String destinationName = "Event place";
     private PlaceModel place;
 
     @Override
@@ -39,49 +38,20 @@ public class InfoDriveMeThereFragment extends Fragment implements View.OnClickLi
         int jsonId = bundle.getInt("jsonId", -1);
         JSONRepository jsonRepository = new JSONRepository(getActivity());
         List<PlaceModel> places = jsonRepository.getPlacesFromJSON();
-        place = places.get(6);
+        place = places.get(0); // TODO parkingo vieta (prototype nera tai del to main stage)
         about = (TextView) v.findViewById(R.id.about);
-        about2 = (TextView) v.findViewById(R.id.about2);
-        link1 = (TextView) v.findViewById(R.id.link1);
-        link2 = (TextView) v.findViewById(R.id.link2);
-        link3 = (TextView) v.findViewById(R.id.link3);
-        link4 = (TextView) v.findViewById(R.id.link4);
-        link5 = (TextView) v.findViewById(R.id.link5);
-        link6 = (TextView) v.findViewById(R.id.link6);
         link = (TextView) v.findViewById(R.id.link);
         header = (ImageView) v.findViewById(R.id.imageView3);
         ImageLoader imageLoader = ImageLoader.getInstance();
-        browserContoller = new BrowserController(getActivity());
         imageLoader.displayImage("drawable://" + photoId, header);
         infoList = jsonRepository.getInfoFromJSON(jsonId);
 
         about.setText(infoList.get(0));
         link.setText(infoList.get(1));
-        about2.setText(infoList.get(2));
-        link1.setText(infoList.get(3));
-        link2.setText(infoList.get(5));
-        link3.setText(infoList.get(7));
-        link4.setText(infoList.get(9));
-        link5.setText(infoList.get(11));
-        link6.setText(infoList.get(13));
-
-        link1.setOnClickListener(this);
-        link2.setOnClickListener(this);
-        link3.setOnClickListener(this);
-        link4.setOnClickListener(this);
-        link5.setOnClickListener(this);
-        link6.setOnClickListener(this);
         link.setOnClickListener(this);
 
         TypefaceController typefaceController = new TypefaceController(getActivity().getAssets());
         typefaceController.setArial(about);
-        typefaceController.setArial(about2);
-        typefaceController.setArial(link1);
-        typefaceController.setArial(link2);
-        typefaceController.setArial(link3);
-        typefaceController.setArial(link4);
-        typefaceController.setArial(link5);
-        typefaceController.setArial(link6);
         typefaceController.setArial(link);
 
         return v;
@@ -89,32 +59,7 @@ public class InfoDriveMeThereFragment extends Fragment implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
-        int index = 4;
-        switch (v.getId()){
-            case R.id.link1:
-                index = 4;
-                break;
-            case R.id.link2:
-                index = 6;
-                break;
-            case R.id.link3:
-                index = 8;
-                break;
-            case R.id.link4:
-                index = 10;
-                break;
-            case R.id.link5:
-                index = 12;
-                break;
-            case R.id.link6:
-                index = 14;
-                break;
-            case R.id.link:
-                driveMeThere();
-                return;
-
-        }
-        browserContoller.openBrowser(infoList.get(index));
+        driveMeThere();
     }
 
     private void driveMeThere(){
