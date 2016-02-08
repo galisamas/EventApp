@@ -22,7 +22,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
-                    android:text="PENKTADIENIS"
+                    android:text="DAY ONE"
                     android:textColor="@color/actionbar_second"
                     android:id="@+id/textView2"/>
         </RelativeLayout>
@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
-                    android:text="ŠEŠTADIENIS"
+                    android:text="DAY TWO"
                     android:textColor="@color/actionbar_second"
                     android:id="@+id/textView5"/>
         </RelativeLayout>

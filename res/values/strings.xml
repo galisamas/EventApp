@@ -13,35 +13,23 @@
     <string name="menu_bottom_name2">NEXT</string>
     <string name="menu_bottom_title">NEXT ON STAGE</string>
 
-    <string name="toast_start">Užstatytas priminimas 10 minučių prieš atlikėjo pasirodymą</string>
-    <string name="toast_cancel">Priminimas atšauktas</string>
-    <string name="toast_warning">Prašome įsirašyti žemėlapio programėlę</string>
-    <string name="noCon">Nėra prieigos prie tinklo</string>
-    <string name="after10">Po 10 minučių</string>
-    <string name="openMap">Atidaryti navigacijos programėlę</string>
+    <string name="toast_start">Reminder is set 10 minutes before the artist show</string>
+    <string name="toast_cancel">Reminder is cancelled</string>
+    <string name="toast_warning">Please install google play service</string>
+    <string name="noCon">No connection</string>
+    <string name="after10">After 10 minutes</string>
 
-    <!-- Timetables strings -->
-    <string-array name="tabs_icons">
-        <item>@drawable/stage_main</item>
-        <item>@drawable/stage_beach</item>
-        <item>@drawable/stage_silent</item>
-    </string-array>
 
     <string-array name="tabs_names">
-        <item >Main stage</item>
-        <item >Beach stage</item>
-        <item >Silent stage</item>
+        <item >Stage one</item>
+        <item >Stage two</item>
     </string-array>
 
     <string-array name="info_list_names">
-        <item >Kaip atvykti?</item>
-        <item >Taisyklės</item>
-        <item >Istorija</item>
-        <item>Daryti - Nedaryti</item>
-        <item>Ką pasiimti?</item>
-        <item>Parkavimas</item>
-        <item>Bilietai</item>
-        <item>Apie ItWorks</item>
+        <item >What do we offer?</item>
+        <item >About ItWorks</item>
+        <item >How to arrive</item>
+        <item>One more…</item>
     </string-array>
 
 </resources>

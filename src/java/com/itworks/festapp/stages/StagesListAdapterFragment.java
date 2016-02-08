@@ -56,12 +56,12 @@ public class StagesListAdapterFragment extends BaseListFragment {
                     if (aTimetable instanceof TimetableModel) {
                         ArtistModel artist = modelsController.getArtistModelById(((TimetableModel) aTimetable).artistId);
                         title = artist.title;
-                        photoIdentif = "m"+artist.id;
+                        photoIdentif = "m"+(artist.id+1);
                         place = modelsController.getPlaceModelById(((TimetableModel)aTimetable).stageId);
                     } else{
                         GameModel gameModel = modelsController.getGameModelById(((GameTimetableModel) aTimetable).gameId);
                         place = modelsController.getPlaceModelById(gameModel.placeId);
-                        photoIdentif = "n"+gameModel.id;
+                        photoIdentif = "n"+(gameModel.id+1);
                         title = gameModel.title;
                     }
                     String date = DateController.convertTimeFWD(aTimetable.start_time, aTimetable.end_time);

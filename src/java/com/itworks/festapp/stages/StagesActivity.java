@@ -114,7 +114,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         public CharSequence getPageTitle(int position) {
             SpannableStringBuilder sb = new SpannableStringBuilder(tabTitles[position]);
             TypefaceSpan futuraSpan = new CustomTypefaceSpan(typefaceController.getFutura());
-            ForegroundColorSpan colorSpan = new ForegroundColorSpan(getResources().getColor(R.color.list_separator));
+            ForegroundColorSpan colorSpan = new ForegroundColorSpan(getResources().getColor(R.color.day_background_bottom));
 
             sb.setSpan(new RelativeSizeSpan(1.5f), 0, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             sb.setSpan(futuraSpan, 0, sb.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
