@@ -5,7 +5,7 @@
     <gradient
             android:angle="45"
             android:startColor="@color/actionbar_first"
-            android:endColor="@color/actionbar_second"
+            android:endColor="@color/actionbar_first"
             android:type="linear"
             />
     </shape>

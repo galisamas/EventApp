@@ -1,7 +1,7 @@
 package com.itworks.festapp;
 
 public enum DayName {
-    Penktadienis,
-    Šeštadienis,
-    Sekmadienis
+    Day1,
+    Day2,
+    Day3
 }

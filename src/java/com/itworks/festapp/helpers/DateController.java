@@ -8,26 +8,28 @@ import java.util.Calendar;
 
 public class DateController {
 
+    private static int DAYS = Calendar.getInstance().getActualMaximum(Calendar.DAY_OF_MONTH);
+    private static int DAY_IN_3 = DAYS/3;
     private static final int DAY_HOURS = 24;
-    private static final int FESTIVAL_DAY_1 = 17;
+    private static final int FESTIVAL_DAY_1 = DAY_IN_3*3;// TODO padaryti kad pas trecia diena prasideda festas
     private static final int FESTIVAL_DAY_2 = FESTIVAL_DAY_1+1;
     private static final int FESTIVAL_DAY_3 = FESTIVAL_DAY_2+1;
-    public static final int FESTIVAL_MONTH = Calendar.JULY;
+    public static final int FESTIVAL_MONTH = Calendar.getInstance().get(Calendar.MONTH); //Calendar.JULY;
 
     public static String convertDate(BaseTimetable timetableModel){
         String start = timetableModel.day + "/" + timetableModel.start_time;
         String end = timetableModel.day + "/" + timetableModel.end_time;
-        String day = start.substring(0,1);
+        String day = start.substring(0, 1);
         String dayName = "";
         switch(Integer.parseInt(day)){
             case 1:
-                dayName = DayName.Penktadienis.toString();
+                dayName = DayName.Day1.toString();
             break;
             case 2:
-                dayName = DayName.Šeštadienis.toString();
+                dayName = DayName.Day2.toString();
                 break;
             case 3:
-                dayName = DayName.Sekmadienis.toString();
+                dayName = DayName.Day3.toString();
                 break;
         }
         return dayName + ", " + convertTimeFWD(start.substring(2), end.substring(2));
@@ -44,13 +46,13 @@ public class DateController {
         String dayName = "";
         switch(Integer.parseInt(day)){
             case 1:
-                dayName = DayName.Penktadienis.toString();
+                dayName = DayName.Day1.toString();
                 break;
             case 2:
-                dayName = DayName.Šeštadienis.toString();
+                dayName = DayName.Day2.toString();
                 break;
             case 3:
-                dayName = DayName.Sekmadienis.toString();
+                dayName = DayName.Day3.toString();
                 break;
         }
         return dayName + ", " + convertTimeFWDAndE(start.substring(2));
@@ -99,9 +101,9 @@ public class DateController {
     public static Calendar defaultCalendar(int dayNumber) {
         int day = FESTIVAL_DAY_1;
         switch (dayNumber){
-            case 1:
-                day = FESTIVAL_DAY_1;
-                break;
+//            case 1:
+//                day = FESTIVAL_DAY_1;
+//                break;
             case 2:
                 day = FESTIVAL_DAY_2;
                 break;
@@ -117,21 +119,28 @@ public class DateController {
     public static int getFestivalDay(){
         int day = -1;
         Calendar today = Calendar.getInstance();
-        if(today.get(Calendar.MONTH) == FESTIVAL_MONTH)
-        switch (today.get(Calendar.DAY_OF_MONTH)){
-            case FESTIVAL_DAY_1:
+        if(today.get(Calendar.MONTH) == FESTIVAL_MONTH) {
+            int todayValue = today.get(Calendar.DAY_OF_MONTH);
+            if (todayValue == FESTIVAL_DAY_1 || (todayValue == FESTIVAL_DAY_2 && todayValue < 7))
                 day = 1;
-                break;
-            case FESTIVAL_DAY_2:
-                if(today.get(Calendar.HOUR_OF_DAY) < 7)
-                    day = 1;
-                else
-                    day = 2;
-                break;
-            case FESTIVAL_DAY_3:
-                if(today.get(Calendar.HOUR_OF_DAY) < 7)
-                    day = 2;
-                break;
+            else if(todayValue == FESTIVAL_DAY_2 || (todayValue == FESTIVAL_DAY_3 && todayValue < 7))
+                day = 2;
+
+//                switch (today.get(Calendar.DAY_OF_MONTH)) {
+//                case FESTIVAL_DAY_1:
+//                    day = 1;
+//                    break;
+//                case FESTIVAL_DAY_2:
+//                    if (today.get(Calendar.HOUR_OF_DAY) < 7)
+//                        day = 1;
+//                    else
+//                        day = 2;
+//                    break;
+//                case FESTIVAL_DAY_3:
+//                    if (today.get(Calendar.HOUR_OF_DAY) < 7)
+//                        day = 2;
+//                    break;
+//            }
         }
         return day;
     }

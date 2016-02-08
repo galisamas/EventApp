@@ -14,6 +14,37 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/artists_alarm_margin"
                 android:id="@+id/flag"/>
+        <LinearLayout
+            android:id="@+id/links"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/line1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/social_icon_bottom_margin"
+            android:paddingRight="@dimen/social_icon_bottom_margin"
+            android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/social_icon_size"
+                    android:src="@null"
+                    android:id="@+id/imageFb"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/social_icon_size"
+                    android:src="@null"
+                    android:id="@+id/imageSoudcloud"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/social_icon_size"
+                    android:src="@null"
+                    android:id="@+id/imageYoutube"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/social_icon_size"
+                    android:src="@null"
+                    android:id="@+id/imageSpotify"/>
+        </LinearLayout>
 
     <View
             android:layout_width="match_parent"
@@ -164,42 +195,6 @@
 
         </LinearLayout>
     </ScrollView>
-    <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_above="@+id/links"
-            android:id="@+id/line3"
-            android:background="@color/list_separator" />
-    <LinearLayout
-            android:id="@+id/links"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingBottom="@dimen/social_icon_bottom_margin"
-            android:paddingTop="@dimen/social_icon_bottom_margin"
-            android:layout_height="wrap_content">
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/social_icon_size"
-                android:src="@null"
-                android:id="@+id/imageFb"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/social_icon_size"
-                android:src="@null"
-                android:id="@+id/imageSoudcloud"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/social_icon_size"
-                android:src="@null"
-                android:id="@+id/imageYoutube"/>
-        <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/social_icon_size"
-                android:src="@null"
-                android:id="@+id/imageSpotify"/>
-    </LinearLayout>
+
 
 </RelativeLayout>
