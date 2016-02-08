@@ -26,7 +26,7 @@ public class FoodInfoFragment extends BaseFragment{ // TODO prideti facebook ico
 
     private final String foodInfoPref = "FoodInfoPref";
     private final String key = "id";
-    private final int foodCourtId = 3; // TODO pakeisti visada foodCourtId
+    private final int foodCourtId = 3; // FIX pakeisti visada foodCourtId
     private FoodModel foodModel;
     TextView title, about, location;
     RelativeLayout place;

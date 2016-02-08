@@ -22,7 +22,7 @@ public class FoodListAdapter extends ArrayAdapter<FoodListItem> {
     private final String foodAdapterPref = "foodAdapterPref";
 
     public FoodListAdapter(Context context, List<FoodListItem> items) {
-        super(context, R.layout.artists_list_item, items); // TODO naudojamas ne food_list_iten
+        super(context, R.layout.artists_list_item, items); // FIX naudojamas ne food_list_iten
         this.context = context;
         sharedpreferences = context.getSharedPreferences(foodAdapterPref, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();

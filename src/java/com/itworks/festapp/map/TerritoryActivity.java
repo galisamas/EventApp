@@ -48,7 +48,7 @@ public class TerritoryActivity extends FragmentActivity implements android.locat
         super.onCreate(savedInstanceState);
         setContentView(R.layout.territory_activity);
         System.gc();
-        cameraStart = new LatLng(55.160313, 25.309264); // TODO carema possition
+        cameraStart = new LatLng(55.160313, 25.309264); // FIX carema possition
         markerQueue = new LinkedList<>();
         Intent intent = getIntent();
         lat = intent.getDoubleExtra("place_latitude", 0.0);

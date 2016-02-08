@@ -31,7 +31,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
     private TypefaceController typefaceController;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { // TODO kai griztu po fb is apraso, stage listas buna tuscias, reikia pakeisti diena ir tik tada atsiranda kazkas. Nes keiciant stage'us niekas nesikeicia
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stage_activity);
         setActionBar();

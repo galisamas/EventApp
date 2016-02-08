@@ -38,7 +38,7 @@ public class InfoDriveMeThereFragment extends Fragment implements View.OnClickLi
         int jsonId = bundle.getInt("jsonId", -1);
         JSONRepository jsonRepository = new JSONRepository(getActivity());
         List<PlaceModel> places = jsonRepository.getPlacesFromJSON();
-        place = places.get(0); // TODO parkingo vieta (prototype nera tai del to main stage)
+        place = places.get(0); // FIX parkingo vieta (prototype nera tai del to main stage)
         about = (TextView) v.findViewById(R.id.about);
         link = (TextView) v.findViewById(R.id.link);
         header = (ImageView) v.findViewById(R.id.imageView3);

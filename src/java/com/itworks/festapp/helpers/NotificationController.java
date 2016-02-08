@@ -48,7 +48,6 @@ public class NotificationController {
                 intent.putExtra("isItGeneral", true);
                 id += 100;
             }
-//            Log.d("CONTROLER",title + " - "+ id); TODO log
             AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(context, id, intent, PendingIntent.FLAG_UPDATE_CURRENT);
             alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);

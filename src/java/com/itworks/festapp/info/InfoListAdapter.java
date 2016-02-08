@@ -13,7 +13,7 @@ import com.itworks.festapp.models.InfoListItem;
 import java.util.List;
 
 public class InfoListAdapter extends ArrayAdapter<InfoListItem> { // TODO list separator spalva pakeisti
-
+    // TODO nuimti rodykles i desine (listines) balta fona
     private final Context context;
 
     public InfoListAdapter(Context context, List<InfoListItem> items) {
