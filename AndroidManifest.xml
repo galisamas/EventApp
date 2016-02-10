@@ -48,6 +48,13 @@
         <meta-data android:name="com.google.android.gms.version"
                    android:value="@integer/google_play_services_version" />
 
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="06h86twJ0rf6VjRQPF3Srceg5F23aLhzGiz79PU8" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="0P5I0lu21dXhhzUhFrt70N0TnH21D4IE77r5Xli0" />
+
         <activity android:name=".MyActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar">
@@ -67,7 +74,6 @@
         <activity android:name=".stages.StagesActivity"
                   android:screenOrientation="portrait"/>
         <activity android:name=".map.TerritoryActivity"
-                  android:theme="@android:style/Theme.Holo.Light.NoActionBar"
                   android:screenOrientation="portrait"/>
         <activity android:name=".games.GamesActivity"
                   android:screenOrientation="portrait"/>
@@ -95,7 +101,8 @@
                  android:exported="false"/>
 
 
-        <meta-data android:name="com.parse.push.notification_icon" android:resource="@drawable/ic_stat"/>
+        <meta-data android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/ic_stat"/>
         <service android:name="com.parse.PushService" />
         <receiver android:name="com.parse.ParseBroadcastReceiver">
             <intent-filter>

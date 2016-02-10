@@ -18,6 +18,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.*;
+import com.itworks.festapp.ActionBarActivity;
 import com.itworks.festapp.R;
 import com.itworks.festapp.helpers.FloatingGroupExpandableListView.FloatingGroupExpandableListView;
 import com.itworks.festapp.helpers.FloatingGroupExpandableListView.WrapperExpandableListAdapter;
@@ -31,7 +32,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class TerritoryActivity extends FragmentActivity implements android.location.LocationListener{
+public class TerritoryActivity extends ActionBarActivity implements android.location.LocationListener{
 
     GoogleMap googleMap;
     double lat, lng;
@@ -44,11 +45,12 @@ public class TerritoryActivity extends FragmentActivity implements android.locat
     private String name, snippet;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) { // TODO reik kad rodytu actionbar
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.territory_activity);
+        setActionBar();
         System.gc();
-        cameraStart = new LatLng(55.160313, 25.309264); // FIX carema possition
+        cameraStart = new LatLng(54.678360, 25.240285); // FIX carema possition
         markerQueue = new LinkedList<>();
         Intent intent = getIntent();
         lat = intent.getDoubleExtra("place_latitude", 0.0);
@@ -116,8 +118,8 @@ public class TerritoryActivity extends FragmentActivity implements android.locat
                 @Override
                 public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
                     LatLngBounds newarkBounds = new LatLngBounds(
-                            new LatLng(55.157544, 25.299200),       // South west corner
-                            new LatLng(55.162867, 25.315079));      // North east corner
+                            new LatLng(54.674041, 25.235068),       // South west corner
+                            new LatLng(54.683382, 25.246468));      // North east corner
                     GroundOverlayOptions newarkMap = new GroundOverlayOptions()
                             .image(BitmapDescriptorFactory.fromBitmap(loadedImage))
                             .positionFromBounds(newarkBounds);
@@ -129,15 +131,11 @@ public class TerritoryActivity extends FragmentActivity implements android.locat
 
     private Integer getImageId() {
         long memoryUsage = UsageController.getMemoryUsage(this);
-        int result = R.drawable.map_v3_1604;
-        if(memoryUsage > 900){
-            result = R.drawable.map_v3_4000;
-        }else if(memoryUsage > 600){
-            result = R.drawable.map_v3_3000;
-        }else if(memoryUsage > 450){
-            result = R.drawable.map_v3_2500;
+        int result = R.drawable.map_1500;
+        if(memoryUsage > 600){
+            result = R.drawable.map_3000;
         }else if(memoryUsage > 250){
-            result = R.drawable.map_v3_2000;
+            result = R.drawable.map_2000;
         }
         return result;
     }
