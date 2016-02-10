@@ -16,22 +16,26 @@ public class MyActivity extends FragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_activity);
-
-        int myTimer = 1800;
-        handler = new Handler();
-        runnable = new Runnable() {
-            @Override
-            public void run() {
-                app = (MyApplication) getApplication();
-                setDefaultNotifications();
-                Intent intent = new Intent(MyActivity.this, MenuActivity.class);
-                MyActivity.this.startActivity(intent);
-                MyActivity.this.finish();
-            }
-        };
-        handler.postDelayed(runnable
-        , myTimer);
+//        setContentView(R.layout.my_activity);
+        app = (MyApplication) getApplication();
+        setDefaultNotifications();
+        Intent intent = new Intent(MyActivity.this, MenuActivity.class);
+        MyActivity.this.startActivity(intent);
+        MyActivity.this.finish();
+//        int myTimer = 1800;
+//        handler = new Handler();
+//        runnable = new Runnable() {
+//            @Override
+//            public void run() {
+//                app = (MyApplication) getApplication();
+//                setDefaultNotifications();
+//                Intent intent = new Intent(MyActivity.this, MenuActivity.class);
+//                MyActivity.this.startActivity(intent);
+//                MyActivity.this.finish();
+//            }
+//        };
+//        handler.postDelayed(runnable
+//        , myTimer);
     }
 
     @Override

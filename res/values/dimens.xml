@@ -13,7 +13,7 @@
     <dimen name="bottom_heigth">136dp</dimen>
 
     <dimen name="button_width">300dp</dimen>
-    <dimen name="button_height">42dp</dimen>
+    <dimen name="button_height">36dp</dimen>
     <dimen name="logo_height">154dp</dimen>
     <dimen name="fest_height">17dp</dimen>
     <dimen name="menu_text_size">22dp</dimen>

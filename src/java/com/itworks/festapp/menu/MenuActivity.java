@@ -1,6 +1,9 @@
 package com.itworks.festapp.menu;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import com.itworks.festapp.ActionBarActivity;
 
@@ -16,5 +19,34 @@ public class MenuActivity extends ActionBarActivity {
         bundle.putBoolean("isItArtist", intent.getBooleanExtra("isItArtist", true));
         MenuFragment fragment = new MenuFragment();
         openFragment(bundle, fragment);
+        if (isFirstTime()) {
+            new AlertDialog.Builder(this) // TODO pakeisti teksta
+                    .setTitle("Alert")
+                    .setMessage("This application is just a test")
+                    .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // continue with delete
+                        }
+                    })
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show();
+        }
+    }
+
+    /***
+     * Checks that application runs first time and write flag at SharedPreferences
+     * @return true if 1st time
+     */
+    private boolean isFirstTime()
+    {
+        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+        boolean ranBefore = preferences.getBoolean("RanBefore", false);
+        if (!ranBefore) {
+            // first time
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putBoolean("RanBefore", true);
+            editor.commit();
+        }
+        return !ranBefore;
     }
 }

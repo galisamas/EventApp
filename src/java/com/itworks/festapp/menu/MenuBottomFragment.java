@@ -5,6 +5,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.TypedValue;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +37,6 @@ public class MenuBottomFragment extends Fragment {
         now = (TextView)v.findViewById(R.id.textView);
         after = (TextView)v.findViewById(R.id.textView4);
         parent = (RelativeLayout) v.findViewById(R.id.bottomParent);
-        setTypefaces();
         modelsController = new ModelsController(getActivity());
         element1 = new MenuBottomElement();
         element2 = new MenuBottomElement();
@@ -60,11 +60,12 @@ public class MenuBottomFragment extends Fragment {
             now.requestLayout();
             after.getLayoutParams().height = 0;
             after.requestLayout();
-            title.setText("DABAR ANT SCENOS LIPA");
+            title.setText(getString(R.string.menu_bottom_title));
         }else{
             now.setText(getString(R.string.menu_bottom_name1));
             after.setText(getString(R.string.menu_bottom_name2));
         }
+        setTypefaces();
         return v;
     }
 
@@ -116,6 +117,8 @@ public class MenuBottomFragment extends Fragment {
         typefaceController.setFutura(title);
         typefaceController.setFutura(now);
         typefaceController.setFutura(after);
+        now.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
+        after.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
     }
 
     private void setNextTimetables(TimetableModel current, TimetableModel other, List<TimetableModel> timetables, int dayNumber){
