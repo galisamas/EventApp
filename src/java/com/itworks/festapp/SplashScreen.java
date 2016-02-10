@@ -19,7 +19,7 @@ public class SplashScreen extends Fragment {
         View v = inflater.inflate(R.layout.splash_screen, container, false);
         photo = (ImageView) v.findViewById(R.id.loading_screen);
         ImageLoader imageLoader = ImageLoader.getInstance();
-        imageLoader.displayImage("drawable://" + R.drawable.loading_screen ,photo);
+//        imageLoader.displayImage("drawable://" + R.drawable.loading_screen ,photo);
         YoYo.with(Techniques.Tada)
                 .duration(1700)
                 .playOn(v.findViewById(R.id.loading_screen));

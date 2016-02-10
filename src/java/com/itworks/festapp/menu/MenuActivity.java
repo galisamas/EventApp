@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import com.itworks.festapp.ActionBarActivity;
+import com.itworks.festapp.R;
 
 public class MenuActivity extends ActionBarActivity {
 
@@ -20,12 +21,12 @@ public class MenuActivity extends ActionBarActivity {
         MenuFragment fragment = new MenuFragment();
         openFragment(bundle, fragment);
         if (isFirstTime()) {
-            new AlertDialog.Builder(this) // TODO pakeisti teksta
-                    .setTitle("Alert")
-                    .setMessage("This application is just a test")
+            new AlertDialog.Builder(this)
+                    .setTitle("Welcome")
+                    .setMessage(getString(R.string.welcomeMessage))
                     .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                            // continue with delete
+                            dialog.dismiss();
                         }
                     })
                     .setIcon(android.R.drawable.ic_dialog_alert)

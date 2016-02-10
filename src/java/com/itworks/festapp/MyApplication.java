@@ -25,11 +25,13 @@ public class MyApplication extends com.activeandroid.app.Application {
                 .build();
         ImageLoader.getInstance().init(config);
 
-        ParseCrashReporting.enable(this);
-//        ParseInstallation.getCurrentInstallation().saveInBackground(); // TODO patikrint ar situ dvieju reik
-
         Parse.enableLocalDatastore(this);
+        ParseCrashReporting.enable(this);
 
         Parse.initialize(this);
+
+        ParseInstallation.getCurrentInstallation().saveInBackground();
+
+
     }
 }

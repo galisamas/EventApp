@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.itworks.festapp.BaseFragment;
 import com.itworks.festapp.R;
+import com.itworks.festapp.helpers.BrowserController;
 import com.itworks.festapp.helpers.JSONRepository;
 import com.itworks.festapp.helpers.ModelsController;
 import com.itworks.festapp.helpers.TypefaceController;
@@ -22,7 +23,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.List;
 
-public class FoodInfoFragment extends BaseFragment{ // TODO prideti facebook icona
+public class FoodInfoFragment extends BaseFragment{
 
     private final String foodInfoPref = "FoodInfoPref";
     private final String key = "id";
@@ -61,6 +62,16 @@ public class FoodInfoFragment extends BaseFragment{ // TODO prideti facebook ico
                 place.setEnabled(false);
             }
         });
+        if( foodModel.link_facebook != null && !foodModel.link_facebook.isEmpty()) {
+            ImageView linkF = (ImageView) v.findViewById(R.id.imageFb);
+            imageLoader.displayImage("drawable://" + R.drawable.social_fb, linkF);
+            linkF.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    new BrowserController(getActivity()).openBrowser(foodModel.link_facebook);
+                }
+            });
+        }
 
         title = (TextView) v.findViewById(R.id.textView3);
         about = (TextView) v.findViewById(R.id.about);

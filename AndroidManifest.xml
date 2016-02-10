@@ -103,6 +103,8 @@
 
         <meta-data android:name="com.parse.push.notification_icon"
             android:resource="@drawable/ic_stat"/>
+
+
         <service android:name="com.parse.PushService" />
         <receiver android:name="com.parse.ParseBroadcastReceiver">
             <intent-filter>

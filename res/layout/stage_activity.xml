@@ -23,7 +23,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
                     android:text="DAY ONE"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/day_background_bottom"
                     android:id="@+id/textView2"/>
         </RelativeLayout>
         <RelativeLayout
@@ -37,7 +37,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
                     android:text="DAY TWO"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/day_background_bottom"
                     android:id="@+id/textView5"/>
         </RelativeLayout>
     </LinearLayout>

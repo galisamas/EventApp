@@ -35,8 +35,8 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stage_activity);
         setActionBar();
-        tv1 = (TextView) findViewById(R.id.textView5);
-        tv2 = (TextView) findViewById(R.id.textView2);
+        tv1 = (TextView) findViewById(R.id.textView2);
+        tv2 = (TextView) findViewById(R.id.textView5);
         typefaceController = new TypefaceController(getAssets());
         typefaceController.setFutura(tv1);
         typefaceController.setFutura(tv2);
@@ -77,12 +77,16 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
 
     private void setDayButtonBackground(int day){
         if(day ==1){
-            b1.setBackgroundDrawable(getResources().getDrawable(R.drawable.day_backgroud));
+            b1.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
+            tv1.setTextColor(getResources().getColor(R.color.day_background));
             b2.setBackgroundDrawable(null);
+            tv2.setTextColor(getResources().getColor(R.color.day_background_bottom));
         }else{
 
-            b2.setBackgroundDrawable(getResources().getDrawable(R.drawable.day_backgroud));
+            b2.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
+            tv2.setTextColor(getResources().getColor(R.color.day_background));
             b1.setBackgroundDrawable(null);
+            tv1.setTextColor(getResources().getColor(R.color.day_background_bottom));
         }
     }
 
