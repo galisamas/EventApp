@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -113,6 +114,7 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
     }
 
     private void identifySpaceHeight(int height) {
+        Log.d("VAAAAA","AUKSTIS: " + height);
         space1.getLayoutParams().height = height;
         space2.getLayoutParams().height = height;
         space3.getLayoutParams().height = height;
@@ -121,15 +123,16 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
         space3.requestLayout();
     }
 
-    private int calculateSpaceHeight(FragmentActivity context) {
+    private int calculateSpaceHeight(FragmentActivity context) { // FIX reikia tiesiog susirasti pagal main isdestyma
         Display display = context.getWindowManager().getDefaultDisplay();
         Point size = new Point();
         display.getSize(size);
         int logoH = (int) getResources().getDimension(R.dimen.logo_height);
-        int festH = (int) (getResources().getDimension(R.dimen.fest_height)*(PhotoController.isItSmallScreen(context)?1.5:(PhotoController.isItMediumScreen(context)?4:7)));
+        Log.d("SIZE", ""+ logoH);
+//        int festH = (int) (getResources().getDimension(R.dimen.fest_height)*(PhotoController.isItSmallScreen(context)?1.5:(PhotoController.isItMediumScreen(context)?4:7)));
         int buttonsH = (int) (getResources().getDimension(R.dimen.button_width)*2);
         int fragmentH = (int) getResources().getDimension(R.dimen.button_width);
-        return (size.y-logoH-festH-buttonsH-fragmentH)/3;
+        return size.y/19; //(size.y-logoH-buttonsH-fragmentH)/3;
     }
 
     private void setAlertDialog(String text) {

@@ -22,7 +22,7 @@ public class MenuActivity extends ActionBarActivity {
         openFragment(bundle, fragment);
         if (isFirstTime()) {
             new AlertDialog.Builder(this)
-                    .setTitle("Welcome")
+                    .setTitle("Welcome!")
                     .setMessage(getString(R.string.welcomeMessage))
                     .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {

@@ -1,7 +1,18 @@
 package com.itworks.festapp;
 
-public enum DayName { // TODO pakeisti pavadinimus i first day ir second day
-    Day1,
-    Day2,
-    Day3
+public enum DayName {
+    Day1("First Day"),
+    Day2("Second Day");
+
+    private final String text;
+
+
+    DayName(final String text) {
+        this.text = text;
+    }
+
+    @Override
+    public String toString() {
+        return text;
+    }
 }

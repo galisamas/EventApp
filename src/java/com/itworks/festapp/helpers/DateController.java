@@ -1,5 +1,7 @@
 package com.itworks.festapp.helpers;
 
+import android.util.Log;
+
 import com.itworks.festapp.DayName;
 import com.itworks.festapp.models.BaseTimetable;
 
@@ -8,14 +10,20 @@ import java.util.Calendar;
 
 public class DateController {
 
-    private static int DAYS = Calendar.getInstance().getActualMaximum(Calendar.DAY_OF_MONTH);
-    private static int DAY_IN_3 = DAYS/3;
     private static final int DAY_HOURS = 24;
-    private static final int FESTIVAL_DAY_1 = DAY_IN_3*3;// TODO padaryti kad pas trecia diena prasideda festas
+    private static final int FESTIVAL_DAY_1 = getDay();
     private static final int FESTIVAL_DAY_2 = FESTIVAL_DAY_1+1;
-    private static final int FESTIVAL_DAY_3 = FESTIVAL_DAY_2+1;
+//    private static final int FESTIVAL_DAY_3 = FESTIVAL_DAY_2+1;
     public static final int FESTIVAL_MONTH = Calendar.getInstance().get(Calendar.MONTH); //Calendar.JULY;
 
+
+    private static int getDay(){
+        int yearDays = Calendar.getInstance().get(Calendar.DAY_OF_YEAR);
+        int answer = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
+        if(yearDays % 2 == 0)
+            answer -= 1;
+        return answer;
+    }
     public static String convertDate(BaseTimetable timetableModel){
         String start = timetableModel.day + "/" + timetableModel.start_time;
         String end = timetableModel.day + "/" + timetableModel.end_time;
@@ -28,9 +36,9 @@ public class DateController {
             case 2:
                 dayName = DayName.Day2.toString();
                 break;
-            case 3:
-                dayName = DayName.Day3.toString();
-                break;
+//            case 3:
+//                dayName = DayName.Day3.toString();
+//                break;
         }
         return dayName + ", " + convertTimeFWD(start.substring(2), end.substring(2));
     }
@@ -51,9 +59,9 @@ public class DateController {
             case 2:
                 dayName = DayName.Day2.toString();
                 break;
-            case 3:
-                dayName = DayName.Day3.toString();
-                break;
+//            case 3:
+//                dayName = DayName.Day3.toString();
+//                break;
         }
         return dayName + ", " + convertTimeFWDAndE(start.substring(2));
     }
@@ -99,18 +107,18 @@ public class DateController {
     }
 
     public static Calendar defaultCalendar(int dayNumber) {
-        int day = FESTIVAL_DAY_1;
-        switch (dayNumber){
+        int day = (dayNumber == 1)?FESTIVAL_DAY_1:FESTIVAL_DAY_2;
+//        switch (dayNumber){
 //            case 1:
 //                day = FESTIVAL_DAY_1;
 //                break;
-            case 2:
-                day = FESTIVAL_DAY_2;
-                break;
-            case 3:
-                day = FESTIVAL_DAY_3;
-                break;
-        }
+//            case 2:
+//                day = FESTIVAL_DAY_2;
+//                break;
+//            case 3:
+//                day = FESTIVAL_DAY_3;
+//                break;
+//        }
         Calendar currentDate = Calendar.getInstance();
         currentDate.set(currentDate.get(Calendar.YEAR),FESTIVAL_MONTH,day);
         return currentDate;
@@ -121,9 +129,10 @@ public class DateController {
         Calendar today = Calendar.getInstance();
         if(today.get(Calendar.MONTH) == FESTIVAL_MONTH) {
             int todayValue = today.get(Calendar.DAY_OF_MONTH);
-            if (todayValue == FESTIVAL_DAY_1 || (todayValue == FESTIVAL_DAY_2 && todayValue < 7))
+            if ((todayValue == FESTIVAL_DAY_1 && today.get(Calendar.HOUR_OF_DAY) > 7 ) ||
+                    (todayValue == FESTIVAL_DAY_2 && today.get(Calendar.HOUR_OF_DAY) < 7))
                 day = 1;
-            else if(todayValue == FESTIVAL_DAY_2 || (todayValue == FESTIVAL_DAY_3 && todayValue < 7))
+            else //if(todayValue == FESTIVAL_DAY_2 || (todayValue == FESTIVAL_DAY_1 && today.get(Calendar.HOUR_OF_DAY) < 7))
                 day = 2;
 
 //                switch (today.get(Calendar.DAY_OF_MONTH)) {

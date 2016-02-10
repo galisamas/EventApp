@@ -55,7 +55,7 @@ public class MenuBottomElement extends Fragment {
                 }
             });
 
-            int photo_id = getResources().getIdentifier("m" + artistModel.id, "drawable", getActivity().getPackageName());
+            int photo_id = getResources().getIdentifier("m" + (artistModel.id+1), "drawable", getActivity().getPackageName());
             photo.setImageResource(photo_id);
             title.setText(artistModel.title);
             time.setText(DateController.convertTimeFWD(timetableModel.start_time, timetableModel.end_time));
