@@ -18,19 +18,14 @@
 
     <item name="light_yellow" type="color">#FFFED78A</item>
     <item name="gunmetal_blue" type="color">#FF5D7698</item>
-    <item name="list_separator" type="color">#FFE3DBB4</item> ******
+    <item name="yellow_white" type="color">#FFE3DBB4</item>
     <item name="light_green" type="color">#FFe5f2d2</item>
-    <item name="dark_dark_blue" type="color">#FF2B2840</item>
+    <item name="blue_black" type="color">#FF2B2840</item>
     <item name="light_light_grey" type="color">#9DE0E0E0</item>
     <item name="light_grey" type="color">#9DA5A5A5</item>
-
-
-    <item name="menu_bottom_background" type="color">#CCFFB321</item>
-    <item name="day_background_bottom" type="color">#FF2B2840</item>
-
-
-    <item name="location_text" type="color">#FF405067</item>
-    <item name="tabs_background" type="color">#FFf7fbf1</item>
+    <item name="yellow" type="color">#CCFFB321</item>
+    <item name="dark_dark_blue" type="color">#FF405067</item>
+    <item name="white_grey" type="color">#FFf7fbf1</item>
     <item name="transparent" type="color">#00000000</item>
 
 </resources>

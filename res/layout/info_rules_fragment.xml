@@ -16,7 +16,7 @@
                 android:layout_height="2dp"
                 android:layout_below="@+id/imageView3"
                 android:id="@+id/line1"
-                android:background="@color/list_separator" />
+                android:background="@color/yellow_white" />
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

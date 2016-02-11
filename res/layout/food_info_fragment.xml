@@ -17,7 +17,7 @@
             android:layout_below="@+id/imageView3"
             android:id="@+id/line1"
             android:layout_marginBottom="@dimen/left_text_margin"
-            android:background="@color/list_separator" />
+            android:background="@color/yellow_white" />
 
     <RelativeLayout
         android:id="@+id/infobar"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:text="FoodCourt"
                 android:id="@+id/location"
-                android:textColor="@color/location_text"
+                android:textColor="@color/dark_dark_blue"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_toRightOf="@+id/pic"/>
     </RelativeLayout>
@@ -86,7 +86,7 @@
             android:layout_below="@+id/infobar"
             android:id="@+id/line2"
             android:layout_marginTop="@dimen/left_text_margin"
-            android:background="@color/list_separator" />
+            android:background="@color/yellow_white" />
 
     <ScrollView
             android:layout_width="match_parent"

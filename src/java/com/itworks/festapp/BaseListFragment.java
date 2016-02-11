@@ -21,7 +21,7 @@ public class BaseListFragment extends ListFragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getListView().setDivider(getResources().getDrawable(R.color.list_separator));
+        getListView().setDivider(getResources().getDrawable(R.color.yellow_white));
         getListView().setDividerHeight(2);
         getListView().setBackgroundColor(Color.WHITE);
         ImageLoader imageLoader = ImageLoader.getInstance();

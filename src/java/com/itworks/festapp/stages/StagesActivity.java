@@ -77,16 +77,16 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
 
     private void setDayButtonBackground(int day){
         if(day ==1){
-            b1.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
+            b1.setBackgroundColor(getResources().getColor(R.color.blue_black));
             tv1.setTextColor(getResources().getColor(R.color.light_yellow));
             b2.setBackgroundDrawable(null);
-            tv2.setTextColor(getResources().getColor(R.color.day_background_bottom));
+            tv2.setTextColor(getResources().getColor(R.color.blue_black));
         }else{
 
-            b2.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
+            b2.setBackgroundColor(getResources().getColor(R.color.blue_black));
             tv2.setTextColor(getResources().getColor(R.color.light_yellow));
             b1.setBackgroundDrawable(null);
-            tv1.setTextColor(getResources().getColor(R.color.day_background_bottom));
+            tv1.setTextColor(getResources().getColor(R.color.blue_black));
         }
     }
 
@@ -118,7 +118,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         public CharSequence getPageTitle(int position) {
             SpannableStringBuilder sb = new SpannableStringBuilder(tabTitles[position]);
             TypefaceSpan futuraSpan = new CustomTypefaceSpan(typefaceController.getFutura());
-            ForegroundColorSpan colorSpan = new ForegroundColorSpan(getResources().getColor(R.color.day_background_bottom));
+            ForegroundColorSpan colorSpan = new ForegroundColorSpan(getResources().getColor(R.color.blue_black));
 
             sb.setSpan(new RelativeSizeSpan(1.5f), 0, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             sb.setSpan(futuraSpan, 0, sb.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/tabs_background"
+                android:background="@color/white_grey"
                 android:id="@+id/relativeLayout">
 
     <LinearLayout
@@ -23,7 +23,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
                     android:text="DAY ONE"
-                    android:textColor="@color/day_background_bottom"
+                    android:textColor="@color/blue_black"
                     android:id="@+id/textView2"/>
         </RelativeLayout>
         <RelativeLayout
@@ -37,7 +37,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerInParent="true"
                     android:text="DAY TWO"
-                    android:textColor="@color/day_background_bottom"
+                    android:textColor="@color/blue_black"
                     android:id="@+id/textView5"/>
         </RelativeLayout>
     </LinearLayout>
@@ -46,7 +46,7 @@
             android:layout_height="1dp"
             android:layout_below="@+id/daysLine"
             android:id="@+id/line2"
-            android:background="@color/list_separator" />
+            android:background="@color/yellow_white" />
     <android.support.v4.view.ViewPager
             xmlns:android="http://schemas.android.com/apk/res/android"
            android:id="@+id/pager"

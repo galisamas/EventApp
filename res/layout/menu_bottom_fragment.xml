@@ -16,7 +16,7 @@
                 android:textSize="28sp"
                 android:layout_centerHorizontal="true"
                 android:text="@string/menu_bottom_title"
-                android:textColor="@color/dark_dark_blue"
+                android:textColor="@color/blue_black"
                 android:id="@+id/textView3"/>
     </RelativeLayout>
 
@@ -25,12 +25,12 @@
             android:layout_height="3dp"
             android:layout_below="@+id/onscene"
             android:id="@+id/line1"
-            android:background="@color/dark_dark_blue" />
+            android:background="@color/blue_black" />
 
     <LinearLayout
             android:orientation="horizontal"
             android:layout_below="@+id/line1"
-            android:background="@color/menu_bottom_background"
+            android:background="@color/yellow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -47,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:layout_centerHorizontal="true"
-                        android:textColor="@color/dark_dark_blue"
+                        android:textColor="@color/blue_black"
                         android:id="@+id/textView"/>
             </RelativeLayout>
             <FrameLayout android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
-                android:background="@color/dark_dark_blue" />
+                android:background="@color/blue_black" />
         <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_centerHorizontal="true"
-                        android:textColor="@color/dark_dark_blue"
+                        android:textColor="@color/blue_black"
                         android:id="@+id/textView4"/>
             </RelativeLayout>
             <FrameLayout android:layout_width="match_parent"
