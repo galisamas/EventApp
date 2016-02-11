@@ -48,7 +48,7 @@ public class TerritoryActivity extends ActionBarActivity implements android.loca
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.territory_activity);
-        setActionBar();
+        setActionBar(this);
         System.gc();
         cameraStart = new LatLng(54.678360, 25.240285); // FIX carema possition
         markerQueue = new LinkedList<>();

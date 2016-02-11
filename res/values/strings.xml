@@ -19,6 +19,8 @@
     <string name="noCon">No connection</string>
     <string name="after10">After 10 minutes</string>
     <string name="welcomeMessage">ItWorks welcomes you to our event application. This is a prototype of a generic festival or event app. Here you can explore some of the possible things that are available in an event application! If interested, contacts us at hi@itworksmobile.com</string>
+    <string name="preference_home">HOME</string>
+    <string name="homeButton">HOME_BUTTON</string>
 
 
     <string-array name="tabs_names">

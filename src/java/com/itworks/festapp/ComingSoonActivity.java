@@ -9,7 +9,7 @@ public class ComingSoonActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.coming_soon_activity);
-        setActionBar();
+        setActionBar(this);
         TextView textView = (TextView) findViewById(R.id.item_title);
         TypefaceController typefaceController = new TypefaceController(getAssets());
         typefaceController.setFutura(textView);

@@ -1,19 +1,26 @@
 package com.itworks.festapp;
 
 import android.app.ActionBar;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.itworks.festapp.map.TerritoryActivity;
 
 public class ActionBarActivity extends FragmentActivity {
 
     private FragmentManager fm = getSupportFragmentManager();
 
-    public void setActionBar() {
+    public void setActionBar(Activity activity) {
         ActionBar mActionBar = getActionBar();
         mActionBar.setDisplayShowHomeEnabled(false);
         mActionBar.setDisplayShowTitleEnabled(false);
@@ -39,6 +46,8 @@ public class ActionBarActivity extends FragmentActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(activity instanceof TerritoryActivity)
+                    setResult();
                 ActionBarActivity.this.finish();
             }
         });
@@ -59,5 +68,11 @@ public class ActionBarActivity extends FragmentActivity {
                 ((BaseListFragment)fragment).setPackageName(this.getPackageName());
             fm.beginTransaction().add(android.R.id.content, fragment).commit();
         }
+    }
+
+    public void setResult(){
+        Intent intent = new Intent();
+        intent.putExtra(getString(R.string.homeButton),true);
+        setResult(RESULT_OK, intent);
     }
 }

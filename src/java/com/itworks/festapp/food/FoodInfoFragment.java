@@ -1,5 +1,6 @@
 package com.itworks.festapp.food;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -58,7 +59,7 @@ public class FoodInfoFragment extends BaseFragment{
                 intent.putExtra("place_latitude", coordinate.latitude);
                 intent.putExtra("place_longitude", coordinate.longitude);
                 intent.putExtra("name", foodModel.title);
-                FoodInfoFragment.this.startActivity(intent);
+                FoodInfoFragment.this.startActivityForResult(intent, 0);
                 place.setEnabled(false);
             }
         });
@@ -85,6 +86,14 @@ public class FoodInfoFragment extends BaseFragment{
         about.setText(foodModel.about);
         setTypefaces();
         return v;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
+            getActivity().finish();
+        }
     }
 
     private void setTypefaces() {

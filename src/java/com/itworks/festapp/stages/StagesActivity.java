@@ -34,7 +34,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) { // TODO kai griztu po fb is apraso, stage listas buna tuscias, reikia pakeisti diena ir tik tada atsiranda kazkas. Nes keiciant stage'us niekas nesikeicia
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stage_activity);
-        setActionBar();
+        setActionBar(this);
         tv1 = (TextView) findViewById(R.id.textView2);
         tv2 = (TextView) findViewById(R.id.textView5);
         typefaceController = new TypefaceController(getAssets());
@@ -50,12 +50,6 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         loadCustomPageAdapter(getDay(),0);
     }
 
-    private int getDay(){
-        int day = DateController.getDayForStage();
-        setDayButtonBackground(day);
-        return day;
-    }
-
     @Override
     public void onClick(View v) {
         int day;
@@ -67,6 +61,12 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         setDayButtonBackground(day);
         pagePosition= mViewPager.getCurrentItem();
         loadCustomPageAdapter(day, pagePosition);
+    }
+
+    private int getDay(){
+        int day = DateController.getDayForStage();
+        setDayButtonBackground(day);
+        return day;
     }
 
     private void loadCustomPageAdapter(int day, int tabNumber) {

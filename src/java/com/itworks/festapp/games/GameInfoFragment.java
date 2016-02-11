@@ -1,5 +1,6 @@
 package com.itworks.festapp.games;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -70,7 +71,7 @@ public class GameInfoFragment extends BaseFragment implements View.OnClickListen
                 intent.putExtra("place_latitude", placeModel.latitude);
                 intent.putExtra("place_longitude", placeModel.longitude);
                 intent.putExtra("name", gameModel.title);
-                GameInfoFragment.this.startActivity(intent);
+                GameInfoFragment.this.startActivityForResult(intent, 0);
                 place.setEnabled(false);
             }
         });
@@ -98,6 +99,14 @@ public class GameInfoFragment extends BaseFragment implements View.OnClickListen
         about.setText(gameModel.about);
         setTypefaces();
         return v;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
+            getActivity().finish();
+        }
     }
 
     private void setTypefaces() {

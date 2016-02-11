@@ -1,5 +1,6 @@
 package com.itworks.festapp.artists;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -127,13 +128,21 @@ public class ArtistInfoFragment extends BaseFragment implements View.OnClickList
         return v;
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
+            getActivity().finish();
+        }
+    }
+
     private void openTerritoryActivity(CharSequence snippet, int stageId) {
         Intent intent = new Intent(getActivity(), TerritoryActivity.class);
         intent.putExtra("place_latitude", modelsController.convertPlaceIdToLat(stageId));
         intent.putExtra("place_longitude", modelsController.convertPlaceIdToLng(stageId));
         intent.putExtra("name", artistModel.title);
         intent.putExtra("snippet", snippet);
-        ArtistInfoFragment.this.startActivity(intent);
+        ArtistInfoFragment.this.startActivityForResult(intent, 0);
         place.setEnabled(false);
         place2.setEnabled(false);
     }

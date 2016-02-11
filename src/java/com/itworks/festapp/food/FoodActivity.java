@@ -9,8 +9,7 @@ public class FoodActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setActionBar();
+        setActionBar(this);
         openFragmentWithoutBundle(new FoodListAdapterFragment());
-
     }
 }
