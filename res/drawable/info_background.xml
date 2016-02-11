@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true"
-          android:drawable="@color/menu_button_color_presssed" /> <!-- pressed -->
-    <item android:drawable="@color/menu_button_color" /> <!-- default -->
+          android:drawable="@color/light_grey" /> <!-- pressed -->
+    <item android:drawable="@color/light_light_grey" /> <!-- default -->
 </selector>

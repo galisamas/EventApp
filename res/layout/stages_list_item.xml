@@ -20,7 +20,7 @@
             android:layout_marginLeft="6dp"
             android:layout_centerVertical="true"
             android:id="@+id/item_line"
-            android:background="@color/basic_stage_indicator"
+            android:background="@color/gunmetal_blue"
             android:layout_alignParentLeft="true"/>
     <ImageView
             android:id="@+id/arrow"
@@ -50,7 +50,7 @@
                 android:scrollHorizontally="true"
                 android:ellipsize="end"
                 android:textStyle="bold"
-                android:textColor="@color/actionbar_second"
+                android:textColor="@color/gunmetal_blue"
                 android:id="@+id/item_title"/>
             <TextView
                     android:layout_marginTop="-5dp"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:text="19:00 - 20:00"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/gunmetal_blue"
                     android:id="@+id/item_time"/>
     </LinearLayout>
 

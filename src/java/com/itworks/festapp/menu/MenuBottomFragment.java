@@ -117,8 +117,6 @@ public class MenuBottomFragment extends Fragment {
         typefaceController.setFutura(title);
         typefaceController.setFutura(now);
         typefaceController.setFutura(after);
-        now.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-        after.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
     }
 
     private void setNextTimetables(TimetableModel current, TimetableModel other, List<TimetableModel> timetables, int dayNumber){

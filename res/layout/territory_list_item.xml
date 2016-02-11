@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:background="@color/expandable_background"
+              android:background="@color/light_green"
               android:layout_height="wrap_content">
 
     <TextView
@@ -13,7 +13,7 @@
             android:paddingLeft="5dp"
             android:paddingBottom="5dp"
             android:text="labas"
-            android:textColor="@color/actionbar_second"
+            android:textColor="@color/gunmetal_blue"
             android:textSize="15dp"/>
 
 

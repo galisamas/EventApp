@@ -160,7 +160,7 @@ public class DateController {
         if(today.get(Calendar.MONTH) == DateController.FESTIVAL_MONTH){
             if((today.get(Calendar.DAY_OF_MONTH) == DateController.defaultCalendar(2).get(Calendar.DAY_OF_MONTH) &&
                     today.get(Calendar.HOUR_OF_DAY) > 7 )||
-                    today.get(Calendar.DAY_OF_MONTH)-1 == DateController.defaultCalendar(2).get(Calendar.DAY_OF_MONTH)){
+                    today.get(Calendar.DAY_OF_MONTH) -1 == DateController.defaultCalendar(2).get(Calendar.DAY_OF_MONTH)){
                 day = 2;
             }
         }
@@ -172,14 +172,14 @@ public class DateController {
         Calendar shownDate = defaultCalendar(dayNumber);
         boolean result = false;
         if (today.get(Calendar.MONTH) == shownDate.get(Calendar.MONTH) &&
-                today.get(Calendar.DAY_OF_MONTH)== shownDate.get(Calendar.DAY_OF_MONTH)) {
+                today.get(Calendar.DAY_OF_MONTH) == shownDate.get(Calendar.DAY_OF_MONTH)) {
             if (getHourFWD(startTime) == today.get(Calendar.HOUR_OF_DAY) &&
                     today.get(Calendar.HOUR_OF_DAY) < getHourFWD(endTime) &&
-                    getMinutesFWD(startTime) <= today.get(Calendar.MINUTE)) {
+                    getMinutesFWD(startTime) < today.get(Calendar.MINUTE)) {
                 result = true;
             } else if (getHourFWD(startTime) < today.get(Calendar.HOUR_OF_DAY) &&
                     today.get(Calendar.HOUR_OF_DAY) == getHourFWD(endTime) &&
-                    getMinutesFWD(endTime) >= today.get(Calendar.MINUTE)) {
+                    getMinutesFWD(endTime) > today.get(Calendar.MINUTE)) {
                 result = true;
             } else if (getHourFWD(startTime) < today.get(Calendar.HOUR_OF_DAY) &&
                     today.get(Calendar.HOUR_OF_DAY) < getHourFWD(endTime)) {
@@ -188,20 +188,24 @@ public class DateController {
 
         } else if (today.get(Calendar.MONTH) == shownDate.get(Calendar.MONTH) &&
                 today.get(Calendar.DAY_OF_MONTH) - 1 == shownDate.get(Calendar.DAY_OF_MONTH)) {
-            if (getHourFWD(startTime) == today.get(Calendar.HOUR_OF_DAY) + 24 &&
-                    today.get(Calendar.HOUR_OF_DAY) + 24 < getHourFWD(endTime) &&
-                    getMinutesFWD(startTime) <= today.get(Calendar.MINUTE)) {
+            if (getHourFWD(startTime) == getTodaysHour(today) &&
+                    getTodaysHour(today) < getHourFWD(endTime) &&
+                    getMinutesFWD(startTime) < today.get(Calendar.MINUTE)) {
                 result = true;
-            } else if (getHourFWD(startTime) < today.get(Calendar.HOUR_OF_DAY) + 24 &&
-                    today.get(Calendar.HOUR_OF_DAY) + 24 == getHourFWD(endTime) &&
-                    getMinutesFWD(endTime) >= today.get(Calendar.MINUTE)) {
+            } else if (getHourFWD(startTime) < getTodaysHour(today) &&
+                    getTodaysHour(today) == getHourFWD(endTime) &&
+                    getMinutesFWD(endTime) > today.get(Calendar.MINUTE)) {
                 result = true;
-            } else if (getHourFWD(startTime) < today.get(Calendar.HOUR_OF_DAY) + 24 &&
-                    today.get(Calendar.HOUR_OF_DAY) + 24 < getHourFWD(endTime)) {
+            } else if (getHourFWD(startTime) < getTodaysHour(today) &&
+                    getTodaysHour(today) < getHourFWD(endTime)) {
                 result = true;
             }
         }
         return result;
+    }
+
+    private static int getTodaysHour(Calendar today) {
+        return today.get(Calendar.HOUR_OF_DAY) + 24;
     }
 
     private static String getFullDayHour(String day){

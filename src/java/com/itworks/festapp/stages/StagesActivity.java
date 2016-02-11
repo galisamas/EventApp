@@ -78,13 +78,13 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
     private void setDayButtonBackground(int day){
         if(day ==1){
             b1.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
-            tv1.setTextColor(getResources().getColor(R.color.day_background));
+            tv1.setTextColor(getResources().getColor(R.color.light_yellow));
             b2.setBackgroundDrawable(null);
             tv2.setTextColor(getResources().getColor(R.color.day_background_bottom));
         }else{
 
             b2.setBackgroundColor(getResources().getColor(R.color.day_background_bottom));
-            tv2.setTextColor(getResources().getColor(R.color.day_background));
+            tv2.setTextColor(getResources().getColor(R.color.light_yellow));
             b1.setBackgroundDrawable(null);
             tv1.setTextColor(getResources().getColor(R.color.day_background_bottom));
         }

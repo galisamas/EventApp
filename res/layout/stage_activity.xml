@@ -8,7 +8,7 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:background="@color/day_background"
+            android:background="@color/light_yellow"
             android:id="@+id/daysLine"
             android:layout_height="40dp">
 

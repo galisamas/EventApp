@@ -35,62 +35,62 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Aprasas"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/gunmetal_blue"
                     android:id="@+id/about"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
 
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/gunmetal_blue"
                     android:id="@+id/link1"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link2"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link3"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link4"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link5"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link6"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link7"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link8"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/actionbar_first"
+                    android:textColor="@color/light_yellow"
                     android:id="@+id/link9"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
 

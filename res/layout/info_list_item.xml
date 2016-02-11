@@ -13,7 +13,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="8dp"
-            android:textColor="@color/actionbar_second"
+            android:textColor="@color/gunmetal_blue"
             android:id="@+id/item_title"/>
 
     <ImageView

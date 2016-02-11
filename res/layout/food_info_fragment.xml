@@ -49,7 +49,7 @@
                 android:text="Caif Cafe"
                 android:id="@+id/textView3"
                 android:layout_marginLeft="@dimen/left_text_margin"
-                android:textColor="@color/actionbar_second"
+                android:textColor="@color/gunmetal_blue"
                 android:textSize="30dp"/>
 
     </RelativeLayout>
@@ -98,7 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Aprasas"
-                android:textColor="@color/actionbar_second"
+                android:textColor="@color/gunmetal_blue"
                 android:id="@+id/about"
                 android:layout_marginLeft="@dimen/left_text_margin"
                 android:textAppearance="?android:attr/textAppearanceMedium"

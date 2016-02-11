@@ -28,7 +28,7 @@
             android:layout_toRightOf="@id/item_image"
             android:layout_toLeftOf="@id/forward_arrow"
             android:layout_marginLeft="8dp"
-            android:textColor="@color/actionbar_second"
+            android:textColor="@color/gunmetal_blue"
             android:singleLine="true"
             android:lines="1"
             android:scrollHorizontally="true"

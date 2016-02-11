@@ -36,7 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Aprasas"
-                    android:textColor="@color/actionbar_second"
+                    android:textColor="@color/gunmetal_blue"
                     android:id="@+id/about"
                     android:textAppearance="?android:attr/textAppearanceMedium"/>
 

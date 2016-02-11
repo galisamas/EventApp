@@ -88,8 +88,8 @@ public class StagesListAdapterFragment extends BaseListFragment {
 
     private int getColorByDate(BaseTimetable timetable){
         if(DateController.calculateIsItNow(dayNumber, timetable.start_time, timetable.end_time))
-            return resources.getColor(R.color.now_stage_indicator);
-        return resources.getColor(R.color.basic_stage_indicator);
+            return resources.getColor(R.color.light_yellow);
+        return resources.getColor(R.color.gunmetal_blue);
     }
 
 

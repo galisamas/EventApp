@@ -9,7 +9,7 @@
     <dimen name="social_icon_size">35dp</dimen>
     <dimen name="location_icon_size">12dp</dimen>
     <dimen name="menu_bottom_elements_margin">2dp</dimen>
-    <dimen name="bottom_width">290dp</dimen>
+    <dimen name="bottom_width">300dp</dimen>
     <dimen name="bottom_heigth">136dp</dimen>
 
     <dimen name="button_width">300dp</dimen>

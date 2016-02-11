@@ -35,6 +35,6 @@
             android:lines="1"
             android:scrollHorizontally="true"
             android:ellipsize="end"
-            android:textColor="@color/actionbar_second"
+            android:textColor="@color/gunmetal_blue"
             android:id="@+id/item_title"/>
 </RelativeLayout>

@@ -8,7 +8,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Informacija ruošiama"
-            android:textColor="@color/actionbar_second"
+            android:textColor="@color/gunmetal_blue"
             android:id="@+id/item_title"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
