@@ -11,6 +11,8 @@ import android.media.RingtoneManager;
 import android.os.PowerManager;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
+import android.util.Log;
+
 import com.itworks.festapp.R;
 import com.itworks.festapp.menu.MenuActivity;
 
@@ -29,12 +31,13 @@ public class NotificationReceiver extends BroadcastReceiver {
         String where = intent.getStringExtra("where");
         String after10 = context.getString(R.string.after10) + " ";
         Boolean isItArtist = intent.getBooleanExtra("isItArtist", true);
+
         if (!intent.getBooleanExtra("isItGeneral", false)) {
             mBuilder.setContentTitle(name);
             mBuilder.setTicker(after10 + where);
             mBuilder.setContentText(after10 + where);
         } else {
-            mBuilder.setContentTitle("Radistai Village 2015");
+            mBuilder.setContentTitle("Event Application");
             mBuilder.setTicker(name);
             mBuilder.setContentText(name);
         }
