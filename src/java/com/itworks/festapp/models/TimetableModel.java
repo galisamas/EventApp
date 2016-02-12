@@ -7,6 +7,7 @@ public class TimetableModel extends BaseTimetable {
     public boolean isItEmpty = true;
 
     public TimetableModel() {
+        id = -1;
     }
 
     public TimetableModel(int id, int artistId, int stageId, int day, String start_time, String end_time) {

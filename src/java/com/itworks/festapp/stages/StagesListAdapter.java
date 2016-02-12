@@ -1,6 +1,7 @@
 package com.itworks.festapp.stages;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,7 @@ public class StagesListAdapter extends ArrayAdapter<StageListItem> {
         ViewHolder viewHolder;
 
         if(convertView == null) {
+            Log.d("ADAP", "IF");
             // inflate the GridView item layout
             LayoutInflater inflater = LayoutInflater.from(getContext());
             convertView = inflater.inflate(R.layout.stages_list_item, parent, false);
@@ -43,6 +45,8 @@ public class StagesListAdapter extends ArrayAdapter<StageListItem> {
         } else {
             // recycle the already inflated view
             viewHolder = (ViewHolder) convertView.getTag();
+            Log.d("ADAP", "ELSE");
+
         }
 
         // update the item view

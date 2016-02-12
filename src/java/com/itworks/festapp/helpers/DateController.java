@@ -215,4 +215,9 @@ public class DateController {
         }
         return String.format("%d",hours);
     }
+
+    public static boolean timeIsBeforeStart(String start_time) {
+        int nowHours = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
+        return nowHours <= getHourFWD(start_time);
+    }
 }

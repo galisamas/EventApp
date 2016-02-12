@@ -17,5 +17,6 @@
     <dimen name="logo_height">150dp</dimen>
     <dimen name="fest_height">17dp</dimen>
     <dimen name="menu_text_size">22dp</dimen>
+    <dimen name="right_arrow_size">14dp</dimen>
 
 </resources>

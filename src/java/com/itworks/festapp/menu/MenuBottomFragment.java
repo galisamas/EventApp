@@ -5,6 +5,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
 import android.view.LayoutInflater;
@@ -60,7 +61,7 @@ public class MenuBottomFragment extends Fragment {
             now.requestLayout();
             after.getLayoutParams().height = 0;
             after.requestLayout();
-            title.setText(getString(R.string.menu_bottom_title));
+            title.setText(R.string.menu_bottom_text_small);
         }else{
             now.setText(getString(R.string.menu_bottom_name1));
             after.setText(getString(R.string.menu_bottom_name2));
@@ -100,6 +101,13 @@ public class MenuBottomFragment extends Fragment {
         index++;
     }
 
+    private void setTypefaces() {
+        TypefaceController typefaceController = new TypefaceController(getActivity().getAssets());
+        typefaceController.setFutura(title);
+        typefaceController.setFutura(now);
+        typefaceController.setFutura(after);
+    }
+
     private void setTimetableForBottom() {
         JSONRepository jsonRepository = new JSONRepository(getActivity());
         List<TimetableModel> timetables = jsonRepository.getTimetableFromJSON();
@@ -107,16 +115,12 @@ public class MenuBottomFragment extends Fragment {
         List<TimetableModel> timetableModels = modelsController.findNowTimetables(dayNumber, timetables);
         TimetableModel timetable1 = modelsController.getTimetable(timetableModels, 0);
         TimetableModel timetable2 = modelsController.getTimetable(timetableModels, 1);
+        Log.d("NOW","1: " + timetable1.isItEmpty);
+        Log.d("NOW","2: " + timetable2.isItEmpty);
+
         element1.setTimetableModel(timetable1);
         element2.setTimetableModel(timetable2);
         setNextTimetables(timetable1, timetable2, timetables, dayNumber);
-    }
-
-    private void setTypefaces() {
-        TypefaceController typefaceController = new TypefaceController(getActivity().getAssets());
-        typefaceController.setFutura(title);
-        typefaceController.setFutura(now);
-        typefaceController.setFutura(after);
     }
 
     private void setNextTimetables(TimetableModel current, TimetableModel other, List<TimetableModel> timetables, int dayNumber){
@@ -142,7 +146,7 @@ public class MenuBottomFragment extends Fragment {
     private List<TimetableModel> prepareTimetableList(List<TimetableModel> list, int dayNumber, TimetableModel notThis){
         List<TimetableModel> stageTimetable = new ArrayList<>();
         for (TimetableModel aList : list) {
-            if (aList.day == dayNumber && notThis.id != aList.id) {
+            if (aList.day == dayNumber && notThis.id != aList.id && DateController.timeIsBeforeStart(aList.start_time)) {
                 stageTimetable.add(aList);
             }
         }

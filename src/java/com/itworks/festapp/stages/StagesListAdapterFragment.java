@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import com.itworks.festapp.BaseListFragment;
@@ -36,12 +37,15 @@ public class StagesListAdapterFragment extends BaseListFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         resources = getResources();
-
     }
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
+        setListAsync(activity);
+    }
+
+    private void setListAsync(final Activity activity) {
         new AsyncTask<Void, Void, Void>() {
             List<StageListItem> mItems;
 

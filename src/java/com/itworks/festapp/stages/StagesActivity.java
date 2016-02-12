@@ -2,6 +2,7 @@ package com.itworks.festapp.stages;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.app.ListFragment;
@@ -11,6 +12,7 @@ import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.TypefaceSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -63,6 +65,16 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         loadCustomPageAdapter(day, pagePosition);
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("STAGE", "START"); //****************
+        if(mCustomPagerAdapter != null){
+            mCustomPagerAdapter.notifyDataSetChanged();
+            Log.d("STAGE","VIDUJE");
+        }
+    }
+
     private int getDay(){
         int day = DateController.getDayForStage();
         setDayButtonBackground(day);
@@ -73,6 +85,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         mCustomPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager(), this, day);
         mViewPager.setAdapter(mCustomPagerAdapter);
         mViewPager.setCurrentItem(tabNumber);
+        mCustomPagerAdapter.notifyDataSetChanged();
     }
 
     private void setDayButtonBackground(int day){
@@ -107,6 +120,11 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
             f.setStage(position+1);
             f.setDay(day);
             return f;
+        }
+
+        @Override
+        public int getItemPosition(Object object) {
+            return POSITION_NONE;
         }
 
         @Override

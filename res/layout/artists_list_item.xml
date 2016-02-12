@@ -12,8 +12,8 @@
 
         <ImageView
                 android:id="@+id/forward_arrow"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="@dimen/right_arrow_size"
+            android:layout_height="@dimen/right_arrow_size"
             android:layout_marginRight="5dp"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
