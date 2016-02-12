@@ -13,7 +13,7 @@
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:gravity="center"
-            android:text="Legenda"
+            android:text="@string/Legend"
             android:textColor="@color/gunmetal_blue"
             android:textSize="20dp"/>
 

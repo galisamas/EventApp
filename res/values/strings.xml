@@ -22,6 +22,7 @@
     <string name="preference_home">HOME</string>
     <string name="homeButton">HOME_BUTTON</string>
     <string name="menu_bottom_text_small">NOW ON STAGE</string>
+    <string name="Legend">Legend</string>
 
 
     <string-array name="tabs_names">
