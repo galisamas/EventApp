@@ -1,6 +1,7 @@
 package com.itworks.festapp.stages;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -68,11 +69,14 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("STAGE", "START"); //****************
-        if(mCustomPagerAdapter != null){
-            mCustomPagerAdapter.notifyDataSetChanged();
-            Log.d("STAGE","VIDUJE");
-        }
+        setPref(true);
+    }
+
+    private void setPref(boolean value) {
+        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putBoolean("SCROLL", value);
+        editor.commit();
     }
 
     private int getDay(){
@@ -85,7 +89,25 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         mCustomPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager(), this, day);
         mViewPager.setAdapter(mCustomPagerAdapter);
         mViewPager.setCurrentItem(tabNumber);
-        mCustomPagerAdapter.notifyDataSetChanged();
+
+        mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+                SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+                if (preferences.getBoolean("SCROLL", false)){
+                    mCustomPagerAdapter.notifyDataSetChanged();
+                    setPref(false);
+                }
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+            }
+        });
     }
 
     private void setDayButtonBackground(int day){
@@ -117,7 +139,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
         @Override
         public ListFragment getItem(int position) {
             StagesListAdapterFragment f = new StagesListAdapterFragment();
-            f.setStage(position+1);
+            f.setStage(position + 1);
             f.setDay(day);
             return f;
         }

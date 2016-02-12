@@ -115,9 +115,6 @@ public class MenuBottomFragment extends Fragment {
         List<TimetableModel> timetableModels = modelsController.findNowTimetables(dayNumber, timetables);
         TimetableModel timetable1 = modelsController.getTimetable(timetableModels, 0);
         TimetableModel timetable2 = modelsController.getTimetable(timetableModels, 1);
-        Log.d("NOW","1: " + timetable1.isItEmpty);
-        Log.d("NOW","2: " + timetable2.isItEmpty);
-
         element1.setTimetableModel(timetable1);
         element2.setTimetableModel(timetable2);
         setNextTimetables(timetable1, timetable2, timetables, dayNumber);
