@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.itworks.festapp"
+          package="com.itworks.eventapp"
           android:versionCode="8"
           android:versionName="1.2">
     <uses-sdk android:minSdkVersion="15"
@@ -29,8 +29,8 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <permission android:protectionLevel="signature"
-                android:name="com.itworks.festapp.permission.C2D_MESSAGE" />
-    <uses-permission android:name="com.itworks.festapp.permission.C2D_MESSAGE" />
+                android:name="com.itworks.eventapp.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.itworks.eventapp.permission.C2D_MESSAGE" />
 
     <!-- Required OpenGL ES 2.0. for Maps V2 -->
     <uses-feature
@@ -42,7 +42,7 @@
                  android:theme="@android:style/Theme.Holo.Light"
                  android:icon="@drawable/ic_launcher"
                  android:allowBackup="true"
-                 android:name=".MyApplication">
+                 android:name="com.itworks.eventapp.MyApplication">
 
 
         <meta-data android:name="com.google.android.gms.version"
@@ -55,7 +55,7 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="0P5I0lu21dXhhzUhFrt70N0TnH21D4IE77r5Xli0" />
 
-        <activity android:name=".MyActivity"
+        <activity android:name="com.itworks.eventapp.MyActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar">
             <intent-filter>
@@ -64,40 +64,40 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".menu.MenuActivity"
+        <activity android:name="com.itworks.eventapp.menu.MenuActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
 
-        <activity android:name=".artists.ArtistsActivity"
+        <activity android:name="com.itworks.eventapp.artists.ArtistsActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".stages.StagesActivity"
+        <activity android:name="com.itworks.eventapp.stages.StagesActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".map.TerritoryActivity"
+        <activity android:name="com.itworks.eventapp.map.TerritoryActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".games.GamesActivity"
+        <activity android:name="com.itworks.eventapp.games.GamesActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".food.FoodActivity"
+        <activity android:name="com.itworks.eventapp.food.FoodActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".info.InfoActivity"
+        <activity android:name="com.itworks.eventapp.info.InfoActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".ComingSoonActivity"
+        <activity android:name="com.itworks.eventapp.ComingSoonActivity"
                   android:screenOrientation="portrait"/>
 
         <meta-data android:name="AA_DB_NAME" android:value="Pickrand.db" />
         <meta-data android:name="AA_DB_VERSION" android:value="5" />
         <meta-data android:name="AA_MODELS"
-                android:value="com.itworks.festapp.models.ArtistNotificationModel" />
+                android:value="com.itworks.eventapp.models.ArtistNotificationModel" />
         <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
-                android:value="AIzaSyAsbZxd3puJB5dbrrY_Hy_iG977Yt7USjU" />
+                android:value="AIzaSyDQ39a3OqDPBUy3_K2O55jFd-UX3pwr6kY" />
 
-        <receiver android:name=".helpers.NotificationReceiver">
+        <receiver android:name="com.itworks.eventapp.helpers.NotificationReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
-        <service android:name=".helpers.NotificationIntentService"
+        <service android:name="com.itworks.eventapp.helpers.NotificationIntentService"
                  android:exported="false"/>
 
 
@@ -126,7 +126,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.itworks.festapp" />
+                <category android:name="com.itworks.eventapp" />
             </intent-filter>
         </receiver>
 
