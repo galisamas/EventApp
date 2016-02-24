@@ -44,23 +44,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e7c3ba-56b8-4998-a70a-d9f56f01f97a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw700dp/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/eventapp/menu/MenuBottomFragment.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/eventapp/menu/MenuBottomFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/eventapp/stages/StagesActivity.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/eventapp/stages/StagesActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/itworks/eventapp/map/TerritoryActivity.java" afterPath="$PROJECT_DIR$/src/java/com/itworks/eventapp/map/TerritoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/artist_info_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/artist_info_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/artists_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/artists_list_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/game_info_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/game_info_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/games_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/games_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/info_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/info_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/menu_bottom_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/menu_bottom_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/menu_bottom_item.xml" afterPath="$PROJECT_DIR$/res/layout/menu_bottom_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/menu_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/menu_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/stage_activity.xml" afterPath="$PROJECT_DIR$/res/layout/stage_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/stages_list_item.xml" afterPath="$PROJECT_DIR$/res/layout/stages_list_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EventApp.iws" />
@@ -84,35 +70,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values-sw600dp/dimens.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="23" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.17957747">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/values-sw700dp/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35915494">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stages_list_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/stages_list_item.xml">
+      <file leaf-file-name="menu_fragment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/menu_fragment.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.206897">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-              <folding />
+            <state vertical-scroll-proportion="-6.862069">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#7597#7618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -187,8 +165,6 @@
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuBottomFragment.java" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/festapp/menu/MenuFragment.java" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/eventapp/map/TerritoryActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/menu_fragment.xml" />
         <option value="$PROJECT_DIR$/src/java/com/itworks/eventapp/menu/MenuBottomFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/menu_bottom_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/games_list_item.xml" />
@@ -201,8 +177,10 @@
         <option value="$PROJECT_DIR$/res/layout/artist_info_fragment.xml" />
         <option value="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
         <option value="$PROJECT_DIR$/res/layout/game_info_fragment.xml" />
-        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/res/values-sw700dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/layout/menu_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -753,7 +731,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456145013551</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adaptation to '7 and '10 tabs.">
+      <created>1456354408933</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1456354408933</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -840,7 +824,8 @@
     <MESSAGE value="Changed legend name" />
     <MESSAGE value="Notification is working properly" />
     <MESSAGE value="release google key and changed package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="release google key and changed package name" />
+    <MESSAGE value="adaptation to '7 and '10 tabs." />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptation to '7 and '10 tabs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11971831">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,14 +1064,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9753522">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/itworks/eventapp/menu/MenuBottomFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1099,50 +1077,6 @@
         <state vertical-scroll-proportion="0.5721831">
           <caret line="128" column="62" selection-start-line="128" selection-start-column="62" selection-end-line="128" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/menu_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62152135">
-          <caret line="141" column="62" selection-start-line="141" selection-start-column="62" selection-end-line="141" selection-end-column="62" />
-          <folding>
-            <element signature="e#654#672#0" expanded="true" />
-            <element signature="e#944#965#0" expanded="true" />
-            <element signature="e#1609#1637#0" expanded="true" />
-            <element signature="e#1919#1940#0" expanded="true" />
-            <element signature="e#1987#2009#0" expanded="true" />
-            <element signature="e#2454#2477#0" expanded="true" />
-            <element signature="e#2594#2610#0" expanded="true" />
-            <element signature="e#2775#2796#0" expanded="true" />
-            <element signature="e#2843#2865#0" expanded="true" />
-            <element signature="e#2915#2943#0" expanded="true" />
-            <element signature="e#2996#3024#0" expanded="true" />
-            <element signature="e#3472#3495#0" expanded="true" />
-            <element signature="e#3614#3633#0" expanded="true" />
-            <element signature="e#3798#3819#0" expanded="true" />
-            <element signature="e#3866#3888#0" expanded="true" />
-            <element signature="e#4336#4359#0" expanded="true" />
-            <element signature="e#4478#4498#0" expanded="true" />
-            <element signature="e#4663#4684#0" expanded="true" />
-            <element signature="e#4731#4753#0" expanded="true" />
-            <element signature="e#4803#4831#0" expanded="true" />
-            <element signature="e#4884#4912#0" expanded="true" />
-            <element signature="e#5359#5382#0" expanded="true" />
-            <element signature="e#5501#5519#0" expanded="true" />
-            <element signature="e#5684#5705#0" expanded="true" />
-            <element signature="e#5752#5774#0" expanded="true" />
-            <element signature="e#6220#6243#0" expanded="true" />
-            <element signature="e#6362#6379#0" expanded="true" />
-            <element signature="e#6544#6565#0" expanded="true" />
-            <element signature="e#6612#6634#0" expanded="true" />
-            <element signature="e#6684#6712#0" expanded="true" />
-            <element signature="e#7158#7181#0" expanded="true" />
-            <element signature="e#7300#7317#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,6 +1253,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-sw700dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35915494">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/stages_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1330,18 +1272,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/menu_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.862069">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#7597#7618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-sw700dp/dimens.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.17957747">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -16,12 +16,10 @@
                 android:layout_height="@dimen/bg_height"
                 android:layout_alignParentBottom="true"
                 android:id="@+id/menu_background_logo"/>
-    <!--android:paddingRight="@dimen/button_height"
-    android:paddingLeft="@dimen/button_height"-->
+
         <ImageView
                 android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
-
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/space1"
                 android:layout_above="@+id/space2"
