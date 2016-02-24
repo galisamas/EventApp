@@ -71,7 +71,7 @@ public class MenuBottomFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        onWindowFocusChanged(getResources().getDimension(R.dimen.bottom_width));
+        onWindowFocusChanged(getResources().getDimension(R.dimen.button_width));
     }
 
     public void onWindowFocusChanged(float width) {

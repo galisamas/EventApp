@@ -10,7 +10,7 @@
             android:id="@+id/imageView3"
             android:layout_alignParentTop="true"/>
         <ImageView
-                android:layout_width="35dp"
+                android:layout_width="@dimen/flag_size"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/artists_alarm_margin"
                 android:id="@+id/flag"/>
@@ -88,48 +88,56 @@
                 android:textSize="30dp"/>
 
     </RelativeLayout>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="-"
-            android:textColor="@color/gunmetal_blue"
-            android:id="@+id/description"
-            android:layout_marginLeft="@dimen/left_text_margin"
-            android:layout_marginTop="-7dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_below="@+id/header"/>
 
     <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/header"
-            android:layout_marginTop="-7dp"
-            android:id="@+id/place"
-            android:layout_marginLeft="@dimen/artists_list_margin"
-            android:layout_toRightOf="@+id/description">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_toLeftOf="@+id/alarm"
+        android:layout_marginTop="-7dp"
+        android:id="@+id/first">
 
-        <ImageView
-                android:layout_width="@dimen/location_icon_size"
-                android:layout_height="@dimen/location_icon_size"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="3dp"
-                android:id="@+id/pic"
-                android:src="@drawable/location_75"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-"
-                android:id="@+id/location"
-                android:textColor="@color/dark_dark_blue"
+                android:textColor="@color/gunmetal_blue"
+                android:id="@+id/description"
+                android:layout_marginLeft="@dimen/left_text_margin"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_toRightOf="@+id/pic"/>
-    </RelativeLayout>
+                />
 
         <RelativeLayout
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/place"
+                android:layout_marginLeft="@dimen/artists_list_margin"
+                android:layout_toRightOf="@+id/description">
+
+            <ImageView
+                    android:layout_width="@dimen/location_icon_size"
+                    android:layout_height="@dimen/location_icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:id="@+id/pic"
+                    android:src="@drawable/location_75"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/location"
+                    android:textColor="@color/dark_dark_blue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_toRightOf="@+id/pic"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+                android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_marginTop="-7dp"
-                android:layout_below="@+id/description"
+                android:layout_marginTop="@dimen/second_description_margintop"
+                android:layout_toLeftOf="@+id/alarm"
+                android:layout_below="@+id/first"
                 android:id="@+id/second">
                 <TextView
                         android:layout_width="wrap_content"

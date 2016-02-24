@@ -154,8 +154,8 @@ public class TerritoryActivity extends ActionBarActivity implements android.loca
         if(snippet != null && !snippet.isEmpty()){
             marker.snippet(snippet);
         }
-        Bitmap bmp = imageLoader.loadImageSync("drawable://" +R.drawable.location);
-        marker.icon(BitmapDescriptorFactory.fromBitmap(bmp));
+//        Bitmap bmp = imageLoader.loadImageSync("drawable://" +R.drawable.location);
+//        marker.icon(BitmapDescriptorFactory.fromBitmap(bmp));
         Marker m = googleMap.addMarker(marker);
         m.showInfoWindow();
         markerQueue.add(m);

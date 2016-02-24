@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_bottom_elements_margin">4dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="button_width">420dp</dimen>
+    <dimen name="menu_text_size">28sp</dimen>
+    <dimen name="bg_height">300dp</dimen>
+    <dimen name="next_on_stage">35sp</dimen>
+    <dimen name="bottom_image_size">36dp</dimen>
+    <dimen name="menu_bottom_element_title_text_size">22sp</dimen>
+
+    <dimen name="flag_size">45dp</dimen>
+    <dimen name="social_icon_size">45dp</dimen>
+
+    <dimen name="artist_list_image_size">90dp</dimen>
+    <dimen name="artist_list_item_image_margin">6dp</dimen>
+    <dimen name="artist_list_item_height">102dp</dimen>
+    <dimen name="list_item_text_size">28sp</dimen>
+    <dimen name="stage_list_item_artist_text_size">38sp</dimen>
+    <dimen name="stage_list_item_time_text_size">31sp</dimen>
+    <dimen name="stage_list_item_time_text_topmargin">-7dp</dimen>
+    <dimen name="second_description_margintop">5dp</dimen>
+    <dimen name="stage_day_text_size">22sp</dimen>
+    <dimen name="stage_day_button_height">60dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_bottom_elements_margin">6dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_width">530dp</dimen>
+    <dimen name="menu_text_size">30sp</dimen>
+    <dimen name="bg_height">400dp</dimen>
+    <dimen name="next_on_stage">40sp</dimen>
+    <dimen name="bottom_image_size">45dp</dimen>
+    <dimen name="menu_bottom_element_title_text_size">24sp</dimen>
+
+    <dimen name="flag_size">50dp</dimen>
+    <dimen name="social_icon_size">50dp</dimen>
+
+    <dimen name="second_description_margintop">7dp</dimen>
+
+</resources>

@@ -13,7 +13,7 @@
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="28sp"
+                android:textSize="@dimen/next_on_stage"
                 android:layout_centerHorizontal="true"
                 android:text="@string/menu_bottom_title"
                 android:textColor="@color/blue_black"
@@ -45,7 +45,7 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="@dimen/menu_bottom_element_title_text_size"
                         android:layout_centerHorizontal="true"
                         android:textColor="@color/blue_black"
                         android:id="@+id/textView"/>
@@ -72,7 +72,7 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="@dimen/menu_bottom_element_title_text_size"
                     android:layout_centerHorizontal="true"
                         android:textColor="@color/blue_black"
                         android:id="@+id/textView4"/>

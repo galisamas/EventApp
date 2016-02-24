@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="@dimen/artist_list_item_height"
                 android:background="@drawable/list_item_background">
     <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/artist_list_image_size"
+            android:layout_height="@dimen/artist_list_image_size"
             android:id="@+id/item_image"
-            android:layout_margin="3dp"
+            android:layout_margin="@dimen/artist_list_item_image_margin"
             android:layout_alignParentLeft="true"/>
 
         <ImageView
@@ -25,6 +25,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Artist"
                 android:textStyle="bold"
+                android:textSize="@dimen/list_item_text_size"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/item_image"
                 android:layout_toLeftOf="@id/forward_arrow"

@@ -4,8 +4,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/list_item_background">
     <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/artist_list_image_size"
+            android:layout_height="@dimen/artist_list_image_size"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="@dimen/artists_list_margin"
             android:layout_marginBottom="@dimen/artists_list_margin"
@@ -16,7 +16,7 @@
 
     <ImageView
             android:layout_width="4dp"
-            android:layout_height="50dp"
+            android:layout_height="@dimen/artist_list_image_size"
             android:layout_marginLeft="6dp"
             android:layout_centerVertical="true"
             android:id="@+id/item_line"
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="31dp"
+                android:textSize="@dimen/stage_list_item_artist_text_size"
                 android:layout_marginTop="-2dp"
                 android:text="Artist"
                 android:singleLine="true"
@@ -53,10 +53,10 @@
                 android:textColor="@color/gunmetal_blue"
                 android:id="@+id/item_title"/>
             <TextView
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="@dimen/stage_list_item_time_text_topmargin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
+                    android:textSize="@dimen/stage_list_item_time_text_size"
                     android:text="19:00 - 20:00"
                     android:textColor="@color/gunmetal_blue"
                     android:id="@+id/item_time"/>

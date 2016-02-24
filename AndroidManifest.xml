@@ -91,6 +91,8 @@
         <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
                 android:value="AIzaSyDQ39a3OqDPBUy3_K2O55jFd-UX3pwr6kY" />
+        <!-- release AIzaSyDQ39a3OqDPBUy3_K2O55jFd-UX3pwr6kY
+        debug AIzaSyAsbZxd3puJB5dbrrY_Hy_iG977Yt7USjU-->
 
         <receiver android:name="com.itworks.eventapp.helpers.NotificationReceiver">
             <intent-filter>

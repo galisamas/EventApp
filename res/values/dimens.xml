@@ -9,14 +9,28 @@
     <dimen name="social_icon_size">35dp</dimen>
     <dimen name="location_icon_size">12dp</dimen>
     <dimen name="menu_bottom_elements_margin">2dp</dimen>
-    <dimen name="bottom_width">300dp</dimen>
     <dimen name="bottom_heigth">136dp</dimen>
 
     <dimen name="button_width">300dp</dimen>
     <dimen name="button_height">36dp</dimen>
     <dimen name="logo_height">150dp</dimen>
     <dimen name="fest_height">17dp</dimen>
-    <dimen name="menu_text_size">22dp</dimen>
+    <dimen name="menu_text_size">22sp</dimen>
     <dimen name="right_arrow_size">14dp</dimen>
+    <dimen name="bg_height">180dp</dimen>
+    <dimen name="next_on_stage">28sp</dimen>
+    <dimen name="bottom_image_size">32dp</dimen>
+    <dimen name="menu_bottom_element_title_text_size">18sp</dimen>
+    <dimen name="flag_size">35dp</dimen>
+    <dimen name="artist_list_image_size">50dp</dimen>
+    <dimen name="artist_list_item_image_margin">3dp</dimen>
+    <dimen name="artist_list_item_height">56dp</dimen>
+    <dimen name="list_item_text_size">22sp</dimen>
+    <dimen name="stage_list_item_artist_text_size">31sp</dimen>
+    <dimen name="stage_list_item_time_text_size">18sp</dimen>
+    <dimen name="stage_list_item_time_text_topmargin">-5dp</dimen>
+    <dimen name="second_description_margintop">0dp</dimen>
+    <dimen name="stage_day_text_size">16sp</dimen>
+    <dimen name="stage_day_button_height">40dp</dimen>
 
 </resources>

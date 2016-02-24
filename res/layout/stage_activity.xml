@@ -10,7 +10,7 @@
             android:layout_width="fill_parent"
             android:background="@color/light_yellow"
             android:id="@+id/daysLine"
-            android:layout_height="40dp">
+            android:layout_height="@dimen/stage_day_button_height">
 
         <RelativeLayout
                 android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="@dimen/stage_day_text_size"
                     android:layout_centerInParent="true"
                     android:text="DAY ONE"
                     android:textColor="@color/blue_black"
@@ -34,7 +34,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="@dimen/stage_day_text_size"
                     android:layout_centerInParent="true"
                     android:text="DAY TWO"
                     android:textColor="@color/blue_black"

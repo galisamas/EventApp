@@ -63,6 +63,7 @@
                 android:id="@+id/description"
                 android:layout_marginLeft="@dimen/left_text_margin"
                 android:layout_marginTop="-7dp"
+                android:layout_marginBottom="@dimen/second_description_margintop"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_below="@+id/header"/>
 

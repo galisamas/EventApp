@@ -157,7 +157,7 @@ public class StagesActivity extends ActionBarActivity implements View.OnClickLis
             SpannableStringBuilder sb = new SpannableStringBuilder(tabTitles[position]);
             TypefaceSpan futuraSpan = new CustomTypefaceSpan(typefaceController.getFutura());
             ForegroundColorSpan colorSpan = new ForegroundColorSpan(getResources().getColor(R.color.blue_black));
-
+//            getResources().getDimension(R.dimen.stage_bottom_float);
             sb.setSpan(new RelativeSizeSpan(1.5f), 0, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             sb.setSpan(futuraSpan, 0, sb.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
             sb.setSpan(colorSpan, 0, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
